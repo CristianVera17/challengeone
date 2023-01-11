@@ -1,7 +1,10 @@
 import React from 'react'
+import NavbarOne from '../Components/Nav/NavbarOne'
 
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+     <NavbarOne/>
+    </div>
   )
 }

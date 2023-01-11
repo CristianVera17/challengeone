@@ -1,4 +1,5 @@
 import React from "react";
+import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
 import { useAuth } from "../Context/authContext";
 
 export default function Characters() {
@@ -12,6 +13,7 @@ export default function Characters() {
 
   return (
     <div>
+      <NavbarPrivate/>
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
     </div>
