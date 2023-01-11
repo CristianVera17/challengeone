@@ -1,0 +1,69 @@
+/* CSS PRINCIPAL CONTIENE LOS CSS DE CADA COMPONENTE PARA ENTENDERLO LEERLO VA POR SU CSS CORESPONDIENTE A SU COMPONENTE
+TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "---------------------------------" */
+
+/* CSS SLIDER AUTOMATIC */
+.slider-one {
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.slider-one ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 5s infinite;
+}
+
+.slider-one li {
+  width: 90%;
+  list-style: none;
+}
+
+.slider-one img {
+  width: 100%;
+  height: 470px;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+
+.content-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: -70px;
+}
+
+.img-hulk{
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
