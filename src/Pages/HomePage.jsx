@@ -13,11 +13,11 @@ export default function HomePage() {
     <div className='h-96'>
      <NavbarOne/>
      <SliderAutomatic/>
-     <BlockHomeTwo/>
-     <BlockHomeFour/>
-     <BlockVideo/>
-     <BlockHomeTree/>
-     <Carousel/>
+     {/* <BlockHomeTwo/> */}
+     {/* <BlockHomeFour/> */}
+     {/* <BlockVideo/> */}
+     {/* <BlockHomeTree/> */}
+     {/* <Carousel/> */}
      <FooterHome/>
     </div>
   );
