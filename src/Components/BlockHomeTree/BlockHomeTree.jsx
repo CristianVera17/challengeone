@@ -2,7 +2,7 @@ import React from "react";
 import "../../Styles/global-styles.css";
 import ImageBlock from "../../assets/hulk.jpg";
 
-export default function BlockHomeTwo() {
+export default function BlockHomeTree() {
   return (
     <div className="block-home-init">
       <div className="block-home-one">
