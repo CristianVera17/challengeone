@@ -164,7 +164,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 .block-footer-img {
   width: 75%;
   height: 100%;
-  /* background-color: aquamarine; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,13 +193,11 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   }
 
   .block-footer-img {
-    /* background-image: {}; */
     width: 100%;
     height: 100%;
   }
 
   .img-footer {
-    /* display: none; */
     width: 100%;
     height: 100%;
   }
@@ -215,27 +212,22 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   align-items: center;
   width: 50%;
   height: 350px;
-  /* background-color: rgb(172, 39, 39); */
 }
 
 .footer-block-two {
-  /* margin-top: 40px; */
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: yellow; */
 }
 
 @media (max-width: 839px) {
   .block-footer-box-two {
-    /* background-color: aqua; */
     height: 300px;
     width: 100%;
   }
   .footer-block-two {
-    /* height: 50%; */
     width: 90%;
     height: 100%;
     text-align: center;
@@ -245,11 +237,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
     flex-direction: column;
   }
   .box-term-cond {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* align-items: center; */
-    /* text-align: center; */
     font-size: 12px;
   }
 }
@@ -264,7 +251,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: center;
   align-items: center;
   width: 50%;
-  /* background-color: gold; */
 }
 
 .box-footer-end-two {
@@ -272,19 +258,16 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: center;
   align-items: center;
   width: 50%;
-  /* background-color: rgb(0, 122, 126); */
 }
 
 .box-end-one {
-  /* overflow: hidden; */
-  /* background-color: red; */
+ 
   width: 13%;
   margin: 10px;
   height: 42%;
 }
 
 .box-end-two {
-  /* background-color: red; */
   width: 23%;
   margin: 10px;
   height: 50%;
@@ -302,7 +285,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   width: 100px;
   height: 50px;
   clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%);
-
 }
 /* -------------- */
 .box-foo-one {
@@ -315,27 +297,21 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 
 .box-foo {
   justify-content: right;
-  /* border: 5px solid black; */
   display: flex;
-  /* background-color: gold; */
   width: 50%;
   height: 50%;
 }
 /*  */
 
-
 .box-foo-two {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
-  /* background-color: rgb(95, 96, 141); */
   width: 30%;
   height: 50%;
 }
 
 .box-foo-tree {
-  /* background-color: rgb(145, 129, 183); */
   width: 15%;
   height: 50%;
 }
@@ -348,29 +324,18 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 .box-foot-one {
   display: flex;
   justify-content: space-between;
-  /* justify-content: space-between; */
   width: 88%;
   height: 100%;
-  /* background-color: rgb(124, 206, 30); */
 }
-/* .box-foo-one{
-  width: 30%;
-  height: 30%;
-  background-color: green;
-} */
-
-
 
 .box-foot-two {
   width: 30%;
   height: 100%;
-  /* background-color: gold; */
 }
 
 .box-foot-tree {
   width: 30%;
   height: 100%;
-  /* background-color: gold; */
 }
 
 @media (max-width: 839px) {
@@ -381,174 +346,140 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   .box-foo {
     width: 100%;
   }
-  .box-foo-text{
+  .box-foo-text {
     width: 100%;
     height: auto;
   }
-  .box-foot-one{
+  .box-foot-one {
     width: 100%;
   }
-  .box-foo-two{
+  .box-foo-two {
     width: 100%;
     display: flex;
-   
   }
- 
 }
 
 .box-foo-text {
   width: 100%;
-  /* background-color: rgb(113, 86, 124); */
   height: 70px;
   display: flex;
   align-items: center;
 }
 
-
-
-.box-rs
-{
+.box-rs {
   display: flex;
 }
 
-.box-rs-one{
+.box-rs-one {
   display: flex;
 }
-
-
-
-
 
 @media (max-width: 839px) {
+  .box-rs {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+  }
 
-.box-rs{
-  width: 100%;
-  /* background-color: rgb(0, 0, 0); */
-  justify-content: space-between;
-  display: flex;
+  .box-rs-one {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rs {
+    width: 100%;
+    justify-content: center;
+    background-color: #151515;
+  }
+  .box-rs {
+    width: 100%;
+    height: 100%;
+  }
+ 
 }
 
-.box-rs-one{
-  justify-content: space-between;
-  /* background-color: rgb(122, 146, 122); */
-  width: 100%;
-}
-
-.rs{
-  width: 100%;
-  justify-content: center;
-  background-color: #151515;
-}
-.box-rs{
-  width: 100%;
-  height: 100%;
-}
-.rs-box{
-  /* background-color: teal; */
-}
-
-
-}
-
-.rs{
+.rs {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(51, 153, 114); */
   height: 50%;
   align-items: center;
 }
 
-.rs-box{
+.rs-box {
   margin: 2px;
   width: 50px;
   height: 50px;
-  /* background-color: rgb(84, 78, 78); */
 }
 
-.box-rs{
+.box-rs {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
   height: auto;
   width: 80%;
   height: 100%;
-  /* background-color: rgb(186, 186, 225); */
 }
 
 @media (max-width: 559px) {
-.box-rs{
-  width: 100%;
-  height: auto;
-}
-  .rs-box{
+  .box-rs {
+    width: 100%;
+    height: auto;
+  }
+  .rs-box {
     width: 40px;
-    /* background-color: aqua; */
   }
 }
 
 /* ICONS MEDIDAS*/
-.img-icon-fb{
-  /* background-color: rebeccapurple; */
+.img-icon-fb {
   width: 20px;
   height: 20px;
 }
 
-
-.img-icon-tw{
-  /* background-color: red; */
+.img-icon-tw {
   width: 20px;
   height: 20px;
 }
 
-.img-icon-ig{
-  /* background-color: red; */
+.img-icon-ig {
   width: 20px;
   height: 20px;
 }
 
-.img-icon-tr{
-  /* background-color: red; */
+.img-icon-tr {
   width: 20px;
   height: 20px;
 }
 
-.img-icon-yt{
-  /* background-color: rgb(2, 2, 2); */
+.img-icon-yt {
   width: 23px;
   height: 20px;
 }
 
-
-.img-icon-st{
-  /* background-color: rgb(255, 255, 255); */
+.img-icon-st {
   width: 25px;
   height: 22px;
 }
 
-.img-icon-pr{
-  /* background-color: rgb(255, 255, 255); */
+.img-icon-pr {
   width: 25px;
   height: 22px;
 }
 
-.img-logo-rs{
+.img-logo-rs {
   width: 53px;
   height: 23px;
 }
 
-
-.img-logo-rs-mu{
+.img-logo-rs-mu {
   width: 17px;
   height: 25px;
 }
 
-
-
-
 /* 
  */
 
- button {
+button {
   background: #e62429;
   border: none;
   padding: 10px 20px;
@@ -560,19 +491,16 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   cursor: pointer;
   transform: skew(-21deg);
   clip-rule: polygon(0 0, 90% 0, 10% 100%, 0 100%);
-
 }
 
 span {
   color: white;
   display: inline-block;
   transform: skew(21deg);
-  /* clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%); */
-
 }
 
 button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -594,4 +522,4 @@ button:hover::before {
   opacity: 1;
 }
 
- /*  */
+/*  */

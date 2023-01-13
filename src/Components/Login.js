@@ -24,7 +24,7 @@ export default function Login() {
     } catch (error) {
       console.log(error);
       setError(error.message);
-    };
+    }
   };
 
   return (
@@ -54,4 +54,4 @@ export default function Login() {
       </form>
     </div>
   );
-};
+}

@@ -31,7 +31,7 @@ export default function Characters() {
       </div>
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
-      <FooterHome/>
+      <FooterHome />
     </div>
   );
 }
