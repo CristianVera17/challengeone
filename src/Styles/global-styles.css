@@ -158,13 +158,13 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   align-items: center;
   width: 50%;
   height: 350px;
-  background-color: rgb(124, 206, 30);
+  /* background-color: rgb(124, 206, 30); */
 }
 
 .block-footer-img {
   width: 75%;
   height: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,7 +215,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   align-items: center;
   width: 50%;
   height: 350px;
-  background-color: rgb(172, 39, 39);
+  /* background-color: rgb(172, 39, 39); */
 }
 
 .footer-block-two {
@@ -225,7 +225,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 @media (max-width: 839px) {
@@ -264,7 +264,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 .box-footer-end-two {
@@ -272,19 +272,19 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-color: rgb(0, 122, 126);
+  /* background-color: rgb(0, 122, 126); */
 }
 
 .box-end-one {
   /* overflow: hidden; */
-  background-color: red;
+  /* background-color: red; */
   width: 13%;
   margin: 10px;
   height: 42%;
 }
 
 .box-end-two {
-  background-color: red;
+  /* background-color: red; */
   width: 23%;
   margin: 10px;
   height: 50%;
@@ -302,37 +302,38 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   width: 100px;
   height: 50px;
 }
-
+/* -------------- */
 .box-foo-one {
   display: flex;
   align-items: center;
   width: 100%;
   height: 300px;
-  background-color: rgb(251, 247, 131);
+  background-color: rgb(24, 24, 24);
 }
 
 .box-foo {
   justify-content: right;
-  /* justify-content: center; */
-  border: 5px solid black;
+  /* border: 5px solid black; */
   display: flex;
-  background-color: gold;
+  /* background-color: gold; */
   width: 50%;
   height: 50%;
 }
+/*  */
+
 
 .box-foo-two {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
-  background-color: rgb(0, 4, 128);
+  /* background-color: rgb(95, 96, 141); */
   width: 30%;
   height: 50%;
 }
 
 .box-foo-tree {
-  background-color: rgb(38, 0, 128);
+  /* background-color: rgb(145, 129, 183); */
   width: 15%;
   height: 50%;
 }
@@ -348,7 +349,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   /* justify-content: space-between; */
   width: 88%;
   height: 100%;
-  background-color: rgb(124, 206, 30);
+  /* background-color: rgb(124, 206, 30); */
 }
 /* .box-foo-one{
   width: 30%;
@@ -356,16 +357,18 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   background-color: green;
 } */
 
+
+
 .box-foot-two {
   width: 30%;
   height: 100%;
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 .box-foot-tree {
   width: 30%;
   height: 100%;
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 @media (max-width: 839px) {
@@ -376,11 +379,107 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   .box-foo {
     width: 100%;
   }
+  .box-foo-text{
+    width: 100%;
+    height: auto;
+  }
+  .box-foot-one{
+    width: 100%;
+  }
+  .box-foo-two{
+    width: 100%;
+    display: flex;
+   
+  }
+ 
 }
 
 .box-foo-text {
   width: 100%;
-  background-color: aqua;
+  /* background-color: rgb(113, 86, 124); */
   height: 70px;
   display: flex;
+  align-items: center;
 }
+
+
+
+.box-rs
+{
+  display: flex;
+}
+
+.box-rs-one{
+  display: flex;
+}
+
+
+
+
+
+@media (max-width: 839px) {
+
+.box-rs{
+  width: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  justify-content: space-between;
+  display: flex;
+}
+
+.box-rs-one{
+  justify-content: space-between;
+  /* background-color: rgb(122, 146, 122); */
+  width: 100%;
+}
+
+.rs{
+  width: 100%;
+  justify-content: center;
+}
+.box-rs{
+  width: 100%;
+  height: 100%;
+}
+.rs-box{
+  /* background-color: teal; */
+}
+
+
+}
+
+.rs{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(51, 153, 114); */
+  height: 50%;
+  align-items: center;
+}
+
+.rs-box{
+  margin: 2px;
+  width: 50px;
+  height: 50px;
+  /* background-color: rgb(84, 78, 78); */
+}
+
+.box-rs{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: auto;
+  width: 80%;
+  height: 100%;
+  /* background-color: rgb(186, 186, 225); */
+}
+
+@media (max-width: 559px) {
+.box-rs{
+  width: 100%;
+  height: auto;
+}
+  .rs-box{
+    width: 40px;
+    /* background-color: aqua; */
+  }
+}
+
