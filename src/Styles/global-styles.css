@@ -301,6 +301,8 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   background-color: rgb(255, 0, 0);
   width: 100px;
   height: 50px;
+  clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%);
+
 }
 /* -------------- */
 .box-foo-one {
@@ -435,6 +437,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 .rs{
   width: 100%;
   justify-content: center;
+  background-color: #151515;
 }
 .box-rs{
   width: 100%;
@@ -483,3 +486,112 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   }
 }
 
+/* ICONS MEDIDAS*/
+.img-icon-fb{
+  /* background-color: rebeccapurple; */
+  width: 20px;
+  height: 20px;
+}
+
+
+.img-icon-tw{
+  /* background-color: red; */
+  width: 20px;
+  height: 20px;
+}
+
+.img-icon-ig{
+  /* background-color: red; */
+  width: 20px;
+  height: 20px;
+}
+
+.img-icon-tr{
+  /* background-color: red; */
+  width: 20px;
+  height: 20px;
+}
+
+.img-icon-yt{
+  /* background-color: rgb(2, 2, 2); */
+  width: 23px;
+  height: 20px;
+}
+
+
+.img-icon-st{
+  /* background-color: rgb(255, 255, 255); */
+  width: 25px;
+  height: 22px;
+}
+
+.img-icon-pr{
+  /* background-color: rgb(255, 255, 255); */
+  width: 25px;
+  height: 22px;
+}
+
+.img-logo-rs{
+  width: 53px;
+  height: 23px;
+}
+
+
+.img-logo-rs-mu{
+  width: 17px;
+  height: 25px;
+}
+
+
+
+
+/* 
+ */
+
+ button {
+  background: #e62429;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 120px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-21deg);
+  clip-rule: polygon(0 0, 90% 0, 10% 100%, 0 100%);
+
+}
+
+span {
+  color: white;
+  display: inline-block;
+  transform: skew(21deg);
+  /* clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%); */
+
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: rgb(20, 20, 20);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+ /*  */

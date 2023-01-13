@@ -28,7 +28,7 @@ export default function FooterHome() {
         <div className="block-footer-box-two">
           <div className="footer-block-two mt-10">
             <div>
-              <p className="text-1xl font-bold mt-3 text-white">MARVEL INSIDER</p>
+              <p className="text-1xl font-bold mt-3 text-white mt-11">MARVEL INSIDER</p>
             </div>
             <div>
               <p className="text-3xl font-bold mt-3 text-white">Watch, Earn, Redeem!</p>
@@ -38,12 +38,17 @@ export default function FooterHome() {
                 Get rewarded for doing what you already do as a fan.
               </p>
             </div>
-            <div className="BUTON mt-4">
+            <button className="mt-5">
+    <span>Button</span>
+</button>
+            {/* <div className="BUTON mt-4">
+
+   
               <button>JOIN NOW</button>
-            </div>
+            </div> */}
           </div>
           <div className="box-term-cond">
-            <p>Terms and Conditions Apply.</p>
+            <p className="text-white text-sm">Terms and Conditions Apply.</p>
           </div>
         </div>
       </div>
@@ -81,7 +86,7 @@ export default function FooterHome() {
           <div className="box-foo-text">
             <div>
               {" "}
-              <img className="img-logo-u ml-6 " src={logou} alt="" srcset="" />
+              <img className="img-logo-rs ml-6 " src={logou} alt="" srcset="" />
             </div>
             <div className="ml-6">
             <div className="font-bold text-white">MARVEL INSIDER</div>
@@ -91,12 +96,12 @@ export default function FooterHome() {
           </div>
           <div className="box-foo-text">
             <div className="box-foo-text">
-              <div>
+              <div className="ml-5">
                 {" "}
-                <img className="img-logo-u ml-6" src={mulogo} alt="" srcset="" />
+                <img className="img-logo-rs-mu ml-6" src={mulogo} alt="" srcset="" />
               </div>
               <div>
-              <div className="ml-6 box-card-text">
+              <div className="ml-10 box-card-text">
             <div className="font-bold text-white">MARVEL UNLIMITED</div>
             <div className="text-white">Access Over 30,000+ Digital Comics</div>
             </div>
@@ -107,31 +112,31 @@ export default function FooterHome() {
 
         {/* -------- */}
         <div className="rs">
-        <div>Follow</div>
+        <div className="text-1xl text-white font-bold">FOLLOW MARVEL</div>
           <div className="box-rs">
           <div className="rs-box">
-            <img src={imgfb} alt="" />
+            <img className="img-icon-fb" src={imgfb} alt="" />
           </div>
           <div className="rs-box">
-          <img src={imgtw} alt="" />
+          <img className="img-icon-tw" src={imgtw} alt="" />
 
           </div>
           <div className="rs-box">
-          <img src={imgig} alt="" />
+          <img className="img-icon-ig" src={imgig} alt="" />
           </div>
           <div className="rs-box">
-          <img src={imgtr} alt="" />
+          <img className="img-icon-tr" src={imgtr} alt="" />
           </div>
           <div className="rs-box">
-          <img src={imgyt} alt="" />
+          <img className="img-icon-yt" src={imgyt} alt="" />
 
           </div>
           <div className="rs-box">
-          <img src={imgst} alt="" />
+          <img className="img-icon-st" src={imgst} alt="" />
 
           </div>
           <div className="rs-box">
-          <img src={imgps} alt="" />
+          <img className="img-icon-pr" src={imgps} alt="" />
 
           </div>
           </div>
