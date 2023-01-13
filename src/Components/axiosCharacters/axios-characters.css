@@ -1,0 +1,21 @@
+.box-characters{
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+
+.box-characters-one{
+    background-color: royalblue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 10px; */
+}
+
+.box-characters-card{
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+}
