@@ -1,4 +1,5 @@
 import React from "react";
+import FooterHome from "../Components/FooterHome/FooterHome";
 import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
 import { useAuth } from "../Context/authContext";
 
@@ -30,6 +31,7 @@ export default function Characters() {
       </div>
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
+      <FooterHome/>
     </div>
   );
 }
