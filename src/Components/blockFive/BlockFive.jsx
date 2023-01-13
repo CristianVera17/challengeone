@@ -1,6 +1,8 @@
 import React from "react";
 import "./block-five.css";
+import Avengersimg from "../../assets/avwp.png";
 import Cleanimg from "../../assets/clean.jpg";
+
 
 export default function BlockFive() {
   return (
@@ -8,7 +10,7 @@ export default function BlockFive() {
       <div className="box-five-one">
         <div className="block-five-one">
           <div className="block-five-center">
-            <img className="image-block" src={Cleanimg} alt="" />
+            <img className="image-block" src={Avengersimg} alt="" />
           </div>
         </div>
 

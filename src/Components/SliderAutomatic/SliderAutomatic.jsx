@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/global-styles.css";
 // IMPORT IMG
-import Hulk from "../../assets/hulk.jpg";
+import Marvelwp from "../../assets/marvelwp.jpg";
 // ICONS
 // import { Icon } from "../Icons/Icon";
 
@@ -10,16 +10,16 @@ export const SliderAutomatic = () => {
     <div className="slider-one">
       <ul>
         <li>
-          <img className="img-hulk" src={Hulk} alt="" />
+          <img className="img-hulk" src={Marvelwp} alt="" />
         </li>
         <li>
-          <img className="img-hulk" src={Hulk} alt="" />
+          <img className="img-hulk" src={Marvelwp} alt="" />
         </li>
         <li>
-          <img className="img-hulk" src={Hulk} alt="" />
+          <img className="img-hulk" src={Marvelwp} alt="" />
         </li>
         <li>
-          <img className="img-hulk" src={Hulk} alt="" />
+          <img className="img-hulk" src={Marvelwp} alt="" />
         </li>
       </ul>
     </div>

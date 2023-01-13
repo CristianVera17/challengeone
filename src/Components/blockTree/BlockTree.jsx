@@ -1,6 +1,14 @@
 import React from "react";
 import "./block-tree.css";
-import Cleanimg from "../../assets/clean.jpg";
+import Oneimg from "../../assets/onecard.png";
+import Twoimg from "../../assets/twocard.png";
+import Treeimg from "../../assets/treecard.png";
+
+import Fiveimg from "../../assets/fivecard.png";
+import Siximg from "../../assets/sixcard.png";
+import Sevenimg from "../../assets/sevencard.png";
+import Eigthimg from "../../assets/eigthcard.png";
+
 
 export default function BlockTree() {
   return (
@@ -11,7 +19,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Eigthimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -27,7 +35,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Oneimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -44,7 +52,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Twoimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -60,7 +68,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Treeimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -76,7 +84,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Eigthimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -92,7 +100,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Fiveimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -108,7 +116,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Siximg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
@@ -124,7 +132,7 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Cleanimg} />
+              <img className="box-img" alt="" src={Sevenimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="font-bold">
