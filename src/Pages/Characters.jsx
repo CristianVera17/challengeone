@@ -1,6 +1,7 @@
 import React from "react";
 import { AxiosCharacters } from "../Components/axiosCharacters/AxiosCharacters";
-import FooterHome from "../Components/FooterHome/FooterHome";
+import BlockFooter from "../Components/blockFooter/BlockFooter";
+// import FooterHome from "../Components/FooterHome/FooterHome";
 import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
 import { useAuth } from "../Context/authContext";
 
@@ -33,7 +34,8 @@ export default function Characters() {
       <AxiosCharacters/>
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
-      <FooterHome />
+      {/* <FooterHome /> */}
+      <BlockFooter/>
     </div>
   );
 }

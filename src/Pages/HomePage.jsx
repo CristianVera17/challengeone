@@ -1,9 +1,10 @@
 import React from "react";
 import BlockFive from "../Components/blockFive/BlockFive";
+import BlockFooter from "../Components/blockFooter/BlockFooter";
 import BlockTree from "../Components/blockTree/BlockTree";
 import BlockTwo from "../Components/blockTwo/BlockTwo";
 import BlockVideo from "../Components/BlockVideo/BlockVideo";
-import FooterHome from "../Components/FooterHome/FooterHome";
+// import FooterHome from "../Components/FooterHome/FooterHome";
 import NavbarOne from "../Components/Nav/NavbarOne";
 import { SliderAutomatic } from "../Components/SliderAutomatic/SliderAutomatic";
 
@@ -16,7 +17,8 @@ export default function HomePage() {
       <BlockTree />
       <BlockVideo />
       <BlockFive />
-      <FooterHome />
+      {/* <FooterHome /> */}
+      <BlockFooter/>
     </div>
   );
 }

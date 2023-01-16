@@ -113,7 +113,7 @@ const NavbarOne = () => {
       <div className="max-lg:hidden text-center flex justify-center items-center border-t border-zinc-700 py-2">
         <div className="flex w-1/2 justify-around font-bold text-white text-xs">
           {" "}
-          <NavLink to="/home">NEWS</NavLink>
+          <NavLink to="/">NEWS</NavLink>
           <p>COMICS</p>
           <NavLink to="/login">CHARACTER</NavLink>
           <p>MOVIES</p>
