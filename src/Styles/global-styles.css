@@ -2,10 +2,9 @@
 TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "---------------------------------" */
 
 /* CSS SLIDER AUTOMATIC */
-.slider-one {
+/* .slider-one {
   width: 100%;
   overflow: hidden;
-  height: 600px;
   background-color: rgb(255, 255, 255);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
@@ -52,7 +51,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   100% {
     margin-left: -200%;
   }
-}
+} */
 
 .content-one {
   display: flex;

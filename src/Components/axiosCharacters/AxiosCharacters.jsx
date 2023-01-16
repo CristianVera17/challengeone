@@ -1,5 +1,5 @@
 import React from "react";
-import "./axios-characters.css"
+import "./axios-characters.css";
 // import Menu from "../Components/Menu/Menu";
 import axios from "axios";
 import { useState, useEffect } from "react";
@@ -12,8 +12,6 @@ import { useState, useEffect } from "react";
 // 147b87d4f257515604dc116d8ce9ec8099ab186d1bd293897fc18a069507635e6566eda6f
 // hash b5914d4e4f9eb0e3150961b9884d1336
 
-
-
 export const AxiosCharacters = () => {
   const [personajes, setPersonajes] = useState([]);
 
@@ -25,14 +23,12 @@ export const AxiosCharacters = () => {
         "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
       )
       .then((res) => {
-        setPersonajes(res.data.data.results.slice(0,6));
+        setPersonajes(res.data.data.results.slice(0, 6));
         // setEvents(res.data.data.results);
-
       })
       .catch((error) => console.log(error));
   }, []);
   console.log(personajes);
-
 
   useEffect(() => {
     axios
@@ -42,7 +38,6 @@ export const AxiosCharacters = () => {
       .then((res) => {
         // setPersonajes(res.data.data.results.slice(0,6));
         setEvents(res.data.data.results);
-
       })
       .catch((error) => console.log(error));
   }, []);

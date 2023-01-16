@@ -1,21 +1,20 @@
-.box-characters{
-    width: 100%;
-    height: auto;
-    background-color: red;
+.box-characters {
+  width: 100%;
+  height: auto;
+  background-color: red;
 }
 
-.box-characters-one{
-    background-color: royalblue;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* margin: 10px; */
+.box-characters-one {
+  background-color: royalblue;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.box-characters-card{
-    margin: 10px;
-    width: 200px;
-    height: 350px;
+.box-characters-card {
+  margin: 10px;
+  width: 200px;
+  height: 350px;
 }

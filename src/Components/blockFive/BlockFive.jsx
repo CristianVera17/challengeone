@@ -3,7 +3,6 @@ import "./block-five.css";
 import Avengersimg from "../../assets/avwp.png";
 import Cleanimg from "../../assets/clean.jpg";
 
-
 export default function BlockFive() {
   return (
     <div>
@@ -71,5 +70,3 @@ export default function BlockFive() {
     </div>
   );
 }
-
-// BLOQUE 5 ANTERIOR AL FOOTER

@@ -1,3 +1,4 @@
+// NO LO UTILIZAMOS
 // import React from "react";
 // import ImageBlock from "../../assets/hulk.jpg";
 // import "../../Styles/global-styles.css";
