@@ -15,7 +15,7 @@ export const AutomaticSlider = () => {
     <>
       <div className="slider-one">
         <div>
-          <ul>
+          <ul className="ul-li">
             <li>
               <img className="img-hulk" src={Mwpmarvel} alt="" />
             </li>

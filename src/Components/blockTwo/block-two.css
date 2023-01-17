@@ -87,7 +87,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 95%;
-
   height: 310px;
   display: flex;
   overflow-x: auto;
@@ -114,4 +113,9 @@
   height: 100%;
   margin-left: auto;
   clip-path: polygon(0 0, 100% 0, 100% 400%, 0 0%);
+}
+
+.img-od{
+  width: 100%;
+  height: 100%;
 }

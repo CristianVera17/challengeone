@@ -4,6 +4,8 @@ import BlockFooter from "../Components/blockFooter/BlockFooter";
 // import FooterHome from "../Components/FooterHome/FooterHome";
 import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
 import { useAuth } from "../Context/authContext";
+import Wallpaperbg from "../assets/mwpmarvel.webp";
+import "../Styles/global-styles.css";
 
 export default function Characters() {
   const { user, logout, loading } = useAuth();
@@ -18,24 +20,29 @@ export default function Characters() {
     <div>
       <NavbarPrivate />
       <div className="bg-new-color h-[30rem]">
-        <div className="bg-gray-800 h-[25rem]"></div>
+        <div className="bg-black h-[25rem]">
+          <div className="box-int-wall">
+            <div className="text-int-wall">
+              <div className="ind">
+                <p className="text-white text-5xl font-bold">
+                  MARVEL CHARACTERS
+                </p>
+              </div>
+              <div>
+                <p className="text-white text-1xl">
+                  Get hooked on a hearty helping of heroes and villains from the
+                  humble House of Ideas!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      {/* <div className="bg-green-500 w-screen h-96 flex items-center justify-center flex-col">
-        <div>
-          <h1 className="text-5xl font-bold text-white">MARVEL CHARACTERS</h1>
-        </div>
-        <div>
-          <p className="text-white">
-            Get hooked on a hearty helping of heroes and villains from the
-            humble House of Ideas!
-          </p>
-        </div>
-      </div> */}
-      <AxiosCharacters/>
+      <AxiosCharacters />
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
       {/* <FooterHome /> */}
-      <BlockFooter/>
+      <BlockFooter />
     </div>
   );
 }

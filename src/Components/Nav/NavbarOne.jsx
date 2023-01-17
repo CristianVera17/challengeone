@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "./navbar.css";
+
 
 //IMPORTACION DE IMAGENES
 import LogoMarvel from "../../assets/marvelLogo.png";
@@ -148,10 +150,10 @@ const NavbarOne = () => {
 
       <div
         className={`${
-          open ? "w-80" : "w-0"
-        } bg-cyan-600 min-h-screen fixed top-0 left-0 transition-all duration-300`}
+          open ? "w-screen" : "w-0"
+        } bg-black z-30 min-h-screen fixed top-0 left-0 transition-all duration-300`}
       >
-        <div className={`${!open && "hidden"} pt-3`}>
+        <div className={`${!open && "hidden" } pt-3`}>
           <button
             className="ml-4 text-white mb-14"
             onClick={() => setOpen(false)}

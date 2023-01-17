@@ -2,6 +2,7 @@
 .slider-one {
   width: 100%;
   overflow: hidden;
+  z-index: 20;
 }
 
 .slider-one ul {
@@ -30,11 +31,12 @@
   display: flex;
   align-items: center;
   margin-top: -70px;
-  position: relative;
+  /* position:relative; */
   width: 80%;
   height: 100px;
   background-color: rgb(255, 255, 255);
   justify-content: space-around;
+  z-index: 10;
 }
 
 .width {
@@ -142,7 +144,6 @@
 .slider-rs-aut {
   display: flex;
   justify-content: flex-end;
-
   width: 93%;
   height: 56px;
 }

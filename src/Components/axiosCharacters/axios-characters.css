@@ -1,24 +1,54 @@
 .box-characters {
   width: 100%;
   height: auto;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .box-characters-one {
-  background-color: royalblue;
+  /* background-color: royalblue; */
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* background-color: red; */
 }
 
 .box-characters-card {
   margin: 10px;
   width: 200px;
   height: 350px;
+  background-color: rgb(33, 33, 33);
+}
+
+.box-characters-card:hover{
+  color: aqua;
+  background-color: rgb(186, 10, 10);
+}
+
+.box-characters-card-two{
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  /* background-color: rgb(33, 33, 33); */
 }
 .im{
   width: auto;
   height: auto;
+}
+
+.box-charact{
+  width: 100%;
+  height: 80px;
+  /* background-color: gold; */
+  display: flex;
+  justify-content: center;
+}
+
+.box-charact-int{
+  width: 85%;
+  height: 80px;
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
 }

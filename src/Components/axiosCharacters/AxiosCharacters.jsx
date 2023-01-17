@@ -45,8 +45,13 @@ export const AxiosCharacters = () => {
 
   return (
     <div className="box-characters">
-      <h1>Marvel 1</h1>
       {/*  */}
+      <div className="box-charact">
+        <div className="box-charact-int">
+          <div><p className="text-2xl font-bold">FEATURED CHARACTERS</p></div>
+        </div>
+      </div>
+
       <div className="box-characters-one">
         {personajes.map((per) => (
           <div className="box-characters-card" key={per.id}>
@@ -65,10 +70,15 @@ export const AxiosCharacters = () => {
       </div>
       {/*  */}
 
+      <div className="box-charact">
+        <div className="box-charact-int">
+          <div><p className="text-2xl font-bold">CHARACTER SPOTLIGHT</p></div>
+        </div>
+      </div>
       {/*  */}
       <div className="box-characters-one">
         {events.map((eve) => (
-          <div className="box-characters-card" key={eve.id}>
+          <div className="box-characters-card-two" key={eve.id}>
             <div>
               {" "}
               <img

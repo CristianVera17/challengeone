@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useAuth } from "../Context/authContext";
 import { useNavigate } from "react-router-dom";
+import "../Styles/global-styles.css";
 
 export default function Login() {
   const [user, setUser] = useState({
@@ -29,29 +30,37 @@ export default function Login() {
 
   return (
     <div>
-      {error && <p>{error}</p>}
+      <div className="box-login">
+        <div className="text-white">
+          <p className="text-4xl font-bold">Inicia sesión </p>
+        </div>
+        {error && <p>{error}</p>}
 
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          placeholder="Ingrese su email"
-          autoComplete="current-password"
-          onChange={handleChange}
-        />
+        <form className="form-css" onSubmit={handleSubmit}>
+          <label className="text-white" htmlFor="email">
+            Email
+          </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Ingrese su email"
+            autoComplete="current-password"
+            onChange={handleChange}
+          />
 
-        <label htmlFor="password">Email</label>
-        <input
-          type="password"
-          name="password"
-          placeholder="******"
-          autoComplete="current-password"
-          onChange={handleChange}
-        />
-
-        <button>Login</button>
-      </form>
+          <label className="text-white" htmlFor="password">
+            Contraseña
+          </label>
+          <input
+            type="password"
+            name="password"
+            placeholder="******"
+            autoComplete="current-password"
+            onChange={handleChange}
+          />
+          <button className="mt-7">Login</button>
+        </form>
+      </div>
     </div>
   );
 }
