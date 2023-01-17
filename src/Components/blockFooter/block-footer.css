@@ -199,10 +199,10 @@
 }
 
 .box-rs-fr {
-  width: 80px;
+  margin-top: 10px;
+  width: 90px;
   height: 40px;
-  background-color: red;
-  margin: 5px;
+  display: flex;
 }
 
 .box-cookie {

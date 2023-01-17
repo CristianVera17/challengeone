@@ -12,7 +12,7 @@ import Mulogo from "../../assets/mulogo.png";
 export default function BlockTwo() {
   return (
     <div>
-      <div className="box-inline mt-16">
+      <div className="box-inline mt-4">
         <div className="box-int-inline">
           <div className="inline-int">
             <div className="logo-mu">

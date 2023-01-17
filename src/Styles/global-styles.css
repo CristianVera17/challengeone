@@ -406,8 +406,9 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 
 .rs-box {
   margin: 2px;
-  width: 50px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
+  /* background-color: #e62429; */
 }
 
 .box-rs {
@@ -417,6 +418,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   height: auto;
   width: 80%;
   height: 100%;
+  /* background-color: red; */
 }
 
 @media (max-width: 559px) {
@@ -473,7 +475,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 .img-logo-rs-mu {
   width: 17px;
   height: 25px;
-}
+} 
 
 /* 
  */

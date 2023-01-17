@@ -1,9 +1,18 @@
 import "./block-footer.css";
+
+
 import React from "react";
 import Imgfooter from "../../assets/imgfooter.jpg";
 import Imglogo from "../../assets/logom.png";
 import Insiderlogo from "../../assets/insider.png";
 import Unlimitedlogo from "../../assets/mulogo.png";
+import imgfb from "../../assets/fblog.png";
+import imgtw from "../../assets/twicon.png";
+import imgig from "../../assets/igicon.png";
+import imgtr from "../../assets/ticon.png";
+import imgyt from "../../assets/yicon.png";
+import imgst from "../../assets/sicon.png";
+import imgps from "../../assets/picon.png";
 
 export default function BlockFooter() {
   return (
@@ -91,20 +100,51 @@ export default function BlockFooter() {
               </div>
             </div>
           </div>
+
           <div className="footer-box-two-tree">
             <div className="text-white">REDES SOCIALES</div>
             <div className="box-red-social">
               <div className="box-social-red">
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
-                <div className="box-rs-fr">1</div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-fb" src={imgfb} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-tw" src={imgtw} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-ig" src={imgig} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-tr" src={imgtr} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-yt"  src={imgyt} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-st" src={imgst} alt="" />
+            </div>
+                </div>
+                <div className="box-rs-fr">
+                <div className="rs-box">
+              <img className="img-icon-pr" src={imgps} alt="" />
+            </div>
+
+                </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
