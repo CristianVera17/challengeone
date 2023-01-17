@@ -19,6 +19,7 @@
   width: 200px;
   height: 350px;
   background-color: rgb(33, 33, 33);
+  /* clip-path: ; */
 }
 
 .box-characters-card:hover{

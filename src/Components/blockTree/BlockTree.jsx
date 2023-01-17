@@ -23,7 +23,7 @@ export default function BlockTree() {
               <div className="font-bold">
                 <p>COMICS</p>
               </div>
-              <div className="text-2xl">
+              <div className="text-2xl box-ext-card">
                 <div className="box-int-card">
                   <h6 className="font-bold">
                     Five totally Unique Aspects of Dimension Z

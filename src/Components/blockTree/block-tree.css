@@ -9,6 +9,7 @@
 .box-tree-int {
   width: 59%;
   height: auto;
+  overflow: hidden;
 }
 
 .box-tree-int-two {
@@ -53,6 +54,11 @@
   width: 80%;
 }
 
+.box-ext-card{
+  width: 90%;
+  background-color: red;
+}
+
 @media (max-width: 886px) {
   .box-tree {
     display: flex;
@@ -62,6 +68,7 @@
 
   .box-tree-int {
     width: 100%;
+    margin-top: 380px;
   }
 
   .box-tree-int-two {

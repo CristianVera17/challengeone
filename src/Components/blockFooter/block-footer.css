@@ -82,6 +82,7 @@
   .footer-box {
     display: flex;
     flex-direction: column;
+    margin-top: 840px;
   }
   .footer-box-two {
     height: auto;

@@ -87,7 +87,7 @@ export default function BlockTwo() {
         </div>
       </div>
 
-      <div className="block-home-center"></div>
+      {/* <div className="block-home-center"></div> */}
     </div>
   );
 }

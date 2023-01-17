@@ -14,6 +14,7 @@ export const AutomaticSlider = () => {
   return (
     <>
       <div className="slider-one">
+        {/* --------- */}
         <div>
           <ul className="ul-li">
             <li>
@@ -30,6 +31,7 @@ export const AutomaticSlider = () => {
             </li>
           </ul>
         </div>
+        {/* --------- */}
         <div className="box-slider-one">
           <div className="box-slider-ext">
             <div className="box-slider-int">
@@ -51,6 +53,56 @@ export const AutomaticSlider = () => {
             </div>
           </div>
         </div>
+
+        {/*  */}
+
+
+        <div className="box-slider-card">
+          <ul className="ul-li">
+            <li>
+              {/* <img className="img-hulk" src={Mwpmarvel} alt="" /> */}
+              <div className="box-ul">
+                <div className="ul-box-int">
+                <div>MARVEL COMICS</div>
+                <div>CAPTAIN AMERICA: COLD WAR BEGINS</div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eveniet expedita dolores iusto eum cupiditate dolorem, distinctio quidem, quos perspiciatis deserunt aliquam soluta impedit? </div>
+                <div><button>LEARN MORE</button></div>
+                </div>
+               
+              </div>
+            </li>
+
+            <li>
+              {/* <img className="img-hulk" src={Mwpmarvel} alt="" /> */}
+              <div className="box-ul">
+                <div className="ul-box-int">
+                <div>MARVEL COMICS</div>
+                <div>CAPTAIN AMERICA: COLD WAR BEGINS</div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eveniet expedita dolores iusto eum cupiditate dolorem, distinctio quidem, quos perspiciatis deserunt aliquam soluta impedit? </div>
+                <div><button>LEARN MORE</button></div>
+                </div>
+               
+              </div>
+            </li>
+
+            <li>
+              {/* <img className="img-hulk" src={Mwpmarvel} alt="" /> */}
+              <div className="box-ul">
+                <div className="ul-box-int">
+                <div>MARVEL COMICS</div>
+                <div>CAPTAIN AMERICA: COLD WAR BEGINS</div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eveniet expedita dolores iusto eum cupiditate dolorem, distinctio quidem, quos perspiciatis deserunt aliquam soluta impedit? </div>
+                <div><button>LEARN MORE</button></div>
+                </div>
+               
+              </div>
+            </li>
+
+            
+          </ul>
+        </div>
+
+
         <div></div>
       </div>
       {/*  */}
