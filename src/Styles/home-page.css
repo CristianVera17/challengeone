@@ -1,0 +1,16 @@
+nav{
+    font-family: 'open sans';
+    background: #34495e;
+    width:100%;
+    height:auto;
+    position: fixed;
+    top:0;
+    transition: top 0.5s;
+}
+
+
+.text-section{
+    width: 100%;
+    height: 2000px;
+    background-color: red;
+}
