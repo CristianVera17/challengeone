@@ -100,8 +100,11 @@ export default function BlockTwo() {
               </div>
               <div className="item">
                 <img className="image-block" src={Spiderimg} alt="" />
+                {/* <div>holaaaa</div> */}
               </div>
+             
             </div>
+            
           </div>
         </div>
       </div>

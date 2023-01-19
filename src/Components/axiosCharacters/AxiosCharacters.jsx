@@ -20,7 +20,7 @@ export const AxiosCharacters = () => {
   useEffect(() => {
     axios
       .get(
-        "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
+        "https://gateway.marvel.com:443/v1/public/movies?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
       )
       .then((res) => {
         setPersonajes(res.data.data.results.slice(0, 6));

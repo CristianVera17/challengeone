@@ -18,9 +18,112 @@ export default function BlockTree() {
              THE LATEST
             </div>
           {/* BOX */}
+
+          {/* -------------CARD 1------------- */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
               <img className="box-img" alt="" src={Eigthimg} />
+            </div>
+
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p>
+              </div>
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+
+            {/* -------------CARD 2------------- */}
+            <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Oneimg} />
+            </div>
+
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p>
+              </div>
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+
+           {/* -------------CARD 3------------- */}
+           <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Twoimg} />
+            </div>
+
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p>
+              </div>
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+
+          {/* -------------CARD 4------------- */}
+            <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Treeimg} />
+            </div>
+
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p>
+              </div>
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+
+          
+          {/* -------------CARD 5------------- */}
+            <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Eigthimg} />
             </div>
             <div className="box-tree-img-two">
               <div className="box-tree-left">
@@ -36,7 +139,20 @@ export default function BlockTree() {
               </div>
               <p>3 DAY AGO</p>
               </div>
-              {/* <div className="font-bold">
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+
+            
+          {/* -------------CARD 6------------- */}
+          <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Fiveimg} />
+            </div>
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
                 <p>COMICS</p>
               </div>
               <div className="text-2xl box-ext-card">
@@ -46,43 +162,24 @@ export default function BlockTree() {
                   </h6>
                 </div>
               </div>
-              <p>3 DAY AGO</p> */}
-            </div>
-          </div>
-          {/* BOX */}
-          <div className="box-line-tree"></div>
-          {/* BOX */}
-          <div className="box-tree-img">
-            <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Oneimg} />
-            </div>
-            <div className="box-tree-img-two">
-              <div className="font-bold">
-                <p>COMICS</p>
-              </div>
-              <div className="text-2xl">
-                <div className="box-int-card">
-                  <h6 className="font-bold">
-                    Five totally Unique Aspects of Dimension Z
-                  </h6>
-                </div>
-              </div>
               <p>3 DAY AGO</p>
+              </div>
             </div>
           </div>
-          {/* BOX */}
           <div className="box-line-tree"></div>
+          {/* -------------------------- */}
 
-          {/* BOX */}
-          <div className="box-tree-img">
+            {/* -------------CARD 7------------- */}
+            <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Twoimg} />
+            <img className="box-img" alt="" src={Siximg} />
             </div>
             <div className="box-tree-img-two">
+              <div className="box-tree-left">
               <div className="font-bold">
                 <p>COMICS</p>
               </div>
-              <div className="text-2xl">
+              <div className="text-2xl box-ext-card">
                 <div className="box-int-card">
                   <h6 className="font-bold">
                     Five totally Unique Aspects of Dimension Z
@@ -90,47 +187,47 @@ export default function BlockTree() {
                 </div>
               </div>
               <p>3 DAY AGO</p>
+              </div>
             </div>
           </div>
-          {/* BOX */}
           <div className="box-line-tree"></div>
-          {/* BOX */}
-          {/*  */}
-          <div className="box-tree-img">
-            <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Treeimg} />
-            </div>
-            <div className="box-tree-img-two">
-              <div className="font-bold">
-                <p>COMICS</p>
-              </div>
-              <div className="text-2xl">
-                <div className="box-int-card">
-                  <div className="box-int-card">
-                    <h6 className="font-bold">
-                      Five totally Unique Aspects of Dimension Z
-                    </h6>
-                  </div>
-                </div>
-              </div>
-              <p>3 DAY AGO</p>
-            </div>
-          </div>
+          {/* -------------------------- */}
 
-          {/*  */}
+            {/* -------------CARD 8------------- */}
+            <div className="box-tree-img">
+            <div className="box-tree-img-one">
+            <img className="box-img" alt="" src={Sevenimg} />
+            </div>
+            <div className="box-tree-img-two">
+              <div className="box-tree-left">
+              <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p>
+              </div>
+            </div>
+          </div>
+          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
 
-          {/* BOX */}
-          <div className="box-line-tree"></div>
-          {/* BOX */}
-          <div className="box-tree-img">
+            {/* -------------CARD 9------------- */}
+            <div className="box-tree-img">
             <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Eigthimg} />
+            <img className="box-img" alt="" src={Sevenimg} />
             </div>
             <div className="box-tree-img-two">
+              <div className="box-tree-left">
               <div className="font-bold">
                 <p>COMICS</p>
               </div>
-              <div className="text-2xl">
+              <div className="text-2xl box-ext-card">
                 <div className="box-int-card">
                   <h6 className="font-bold">
                     Five totally Unique Aspects of Dimension Z
@@ -138,75 +235,12 @@ export default function BlockTree() {
                 </div>
               </div>
               <p>3 DAY AGO</p>
+              </div>
             </div>
           </div>
-          {/* BOX */}
           <div className="box-line-tree"></div>
-          {/* BOX */}
-          <div className="box-tree-img">
-            <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Fiveimg} />
-            </div>
-            <div className="box-tree-img-two">
-              <div className="font-bold">
-                <p>COMICS</p>
-              </div>
-              <div className="text-2xl">
-                <div className="box-int-card">
-                  <h6 className="font-bold">
-                    Five totally Unique Aspects of Dimension Z
-                  </h6>
-                </div>
-              </div>
-              <p>3 DAY AGO</p>
-            </div>
-          </div>
-          {/* BOX */}
-          <div className="box-line-tree"></div>
-          {/* BOX */}
-          <div className="box-tree-img">
-            <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Siximg} />
-            </div>
-            <div className="box-tree-img-two">
-              <div className="font-bold">
-                <p>COMICS</p>
-              </div>
-              <div className="text-2xl">
-                <div className="box-int-card">
-                  <h6 className="font-bold">
-                    Five totally Unique Aspects of Dimension Z
-                  </h6>
-                  {/* <p>3 DAY AGO</p> */}
-                </div>
-              </div>
-              <p>3 DAY AGO</p>
-            </div>
-          </div>
-          {/* BOX */}
-          <div className="box-line-tree"></div>
-          {/* BOX */}
-          <div className="box-tree-img">
-            <div className="box-tree-img-one">
-              <img className="box-img" alt="" src={Sevenimg} />
-            </div>
-            <div className="box-tree-img-two">
-              <div className="font-bold">
-                <p>COMICS</p>
-              </div>
-              <div className="text-2xl">
-                <div className="box-int-card">
-                  <h6 className="font-bold">
-                    Five totally Unique Aspects of Dimension Z
-                  </h6>
-                </div>
-              </div>
-              <h6>Five totally Unique Aspects of Dimension Z</h6>
-            </div>
-            {/* <p>3 DAY AGO</p> */}
-          </div>
-          {/* BOX */}
-          <div className="box-line-tree"></div>
+          {/* -------------------------- */}
+      
 
           {/* BOX */}
           <div className="box-tree-img justify-center flex">
@@ -228,7 +262,7 @@ export default function BlockTree() {
               </span>
             </div>
             <div>
-              <p className="text-2xl font-bold">THE HYPE BOX</p>
+              <p className="text-2xl font-bold ">THE HYPE BOX</p>
             </div>
             <div>
               Can’t-miss news and updates from across the Marvel Universe!
@@ -314,6 +348,11 @@ export default function BlockTree() {
                   Disney+
                 </div>
               </div>
+            </div>
+            <div className="rail-featured__border-bottom">
+              <span className="icon--svg icon--border">
+              <svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#mask-2)"></path></svg>
+              </span>
             </div>
             {/*  */}
           </div>

@@ -3,7 +3,7 @@ import NavbarOne from "../Components/Nav/NavbarOne";
 // import { AutomaticSlider } from "../Components/automaticSlider/AutomaticSlider";
 import BlockTree from "../Components/blockTree/BlockTree";
 import BlockTwo from "../Components/blockTwo/BlockTwo";
-// import BlockVideo from "../Components/BlockVideo/BlockVideo";
+import BlockVideo from "../Components/BlockVideo/BlockVideo";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
 
 import "../Styles/home-page.css"
@@ -53,6 +53,7 @@ window.onscroll = function() {
     <SimpleSlider/>
     <BlockTwo/>
     <BlockTree/>
+    <BlockVideo />
      <BlockFooter/>
     </div>
   );
