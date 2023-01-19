@@ -18,16 +18,33 @@ export default function BlockTwo() {
             <div className="logo-mu">
               <img className="mu-logo" src={Mulogo} alt="imageunlimited" />
             </div>
-            <div className="text-2xl font-bold mt-5 text-white">
+
+            {/* <div className="text-2xl font-bold mt-5 text-white">
               AVAILABLE NOW
-            </div>
+            </div> */}
+            <div className="sets__eyebrow">
+        "AVALIABLE NOW"
+      </div>
+
             <div className="text-4xl font-bold mt-5 text-white">
               NEW ON MARVEL UNLIMITED
             </div>
             <div className="mt-2 text-white">
               Read these plus 30,000+ digital comics for $9.99 a month!
             </div>
-            <div className="mt-5 text-white">GET MARVEL UNLIMITED</div>
+
+            <button className="button-one-ori mt-5">
+            <div className="box-botton">
+              <div className="box-int-bot">
+                <div className="box-int-cor-two"></div>
+              </div>
+              GET MARVEL UNLIMITED
+              <div className="box-int-bot">
+              <div className="box-int-cor"></div>
+              </div>
+            </div>
+            </button>
+
           </div>
         </div>
         <div className="box-int-inline-two">
@@ -46,9 +63,11 @@ export default function BlockTwo() {
         <div className="box-five-tree">
           <div className="box-int-tree">
             <div className="wrapper">
+
               <div className="item">
                 <img className="image-block" src={Cardone} alt="" />
               </div>
+
               <div className="item">
                 <img className="image-block" src={Cardtwo} alt="" />
               </div>

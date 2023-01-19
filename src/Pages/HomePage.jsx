@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarOne from "../Components/Nav/NavbarOne";
-import { AutomaticSlider } from "../Components/automaticSlider/AutomaticSlider";
+// import { AutomaticSlider } from "../Components/automaticSlider/AutomaticSlider";
 import BlockTree from "../Components/blockTree/BlockTree";
 import BlockTwo from "../Components/blockTwo/BlockTwo";
 import BlockVideo from "../Components/BlockVideo/BlockVideo";
@@ -24,7 +24,7 @@ window.onscroll = function() {
 }
   return (
     <div>
-       <header>
+       <header className="header-css">
         <nav id="navbar">
             <div class="navegacion">
                 <NavbarOne/>
@@ -32,6 +32,7 @@ window.onscroll = function() {
         </nav>
     </header>
     <div>hola</div>
+
 
     {/* <div className="text-section">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos,
@@ -50,6 +51,7 @@ window.onscroll = function() {
       <BlockTwo />
     */}
     <SimpleSlider/>
+    <BlockTwo />
      <BlockFooter/>
     </div>
   );

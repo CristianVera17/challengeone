@@ -271,12 +271,12 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: space-between;
 }
 
-.BUTON {
+/* .BUTON {
   background-color: rgb(255, 0, 0);
   width: 100px;
   height: 50px;
   clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%);
-}
+} */
 /* -------------- */
 .box-foo-one {
   display: flex;
@@ -472,7 +472,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 /* 
  */
 
-button {
+/* button {
   background: #e62429;
   border: none;
   padding: 10px 20px;
@@ -484,7 +484,7 @@ button {
   cursor: pointer;
   transform: skew(-21deg);
   clip-rule: polygon(0 0, 90% 0, 10% 100%, 0 100%);
-}
+} */
 
 span {
   color: white;

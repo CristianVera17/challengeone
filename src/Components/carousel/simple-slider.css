@@ -1,12 +1,23 @@
 .box-sli-one{
     width: 100%;
-    background-color: gold;
-    /* z-index: 1; */
+    background-color: rgb(255, 255, 255);
     margin-top: 110px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
 }
 
 .box-sli-two{
     background-color: aqua;
     height: 300px;
     z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.box-sli-tree{
+    width: 100vh;
+    height: 100%;
+}
+
+.slick-prev:before{
+   /* display:; */
+   display: none;
 }
