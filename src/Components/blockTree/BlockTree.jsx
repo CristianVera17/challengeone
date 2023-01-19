@@ -13,13 +13,17 @@ export default function BlockTree() {
     <div>
       <div className="box-tree">
         <div className="box-tree-int">
-          <div className="font-bold text-2xl">THE LATEST</div>
+          {/* <div className="font-bold text-2xl">THE LATEST</div> */}
+          <div className="sets__eyebrow-two">
+             THE LATEST
+            </div>
           {/* BOX */}
           <div className="box-tree-img">
             <div className="box-tree-img-one">
               <img className="box-img" alt="" src={Eigthimg} />
             </div>
             <div className="box-tree-img-two">
+              <div className="box-tree-left">
               <div className="font-bold">
                 <p>COMICS</p>
               </div>
@@ -31,6 +35,18 @@ export default function BlockTree() {
                 </div>
               </div>
               <p>3 DAY AGO</p>
+              </div>
+              {/* <div className="font-bold">
+                <p>COMICS</p>
+              </div>
+              <div className="text-2xl box-ext-card">
+                <div className="box-int-card">
+                  <h6 className="font-bold">
+                    Five totally Unique Aspects of Dimension Z
+                  </h6>
+                </div>
+              </div>
+              <p>3 DAY AGO</p> */}
             </div>
           </div>
           {/* BOX */}
@@ -199,8 +215,18 @@ export default function BlockTree() {
           {/* BOX */}
           <div className="box-line-tree"></div>
         </div>
+
         <div className="box-tree-int-two">
           <div className="sidebar-css">
+            {/* <div>
+              <p className="text-2xl font-bold">THE HYPE BOX</p>
+            </div> */}
+            <div className="rail-featured__border-top">
+              <span className="icon--svg icon--border" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#mask-2)"></path></svg>
+
+              </span>
+            </div>
             <div>
               <p className="text-2xl font-bold">THE HYPE BOX</p>
             </div>

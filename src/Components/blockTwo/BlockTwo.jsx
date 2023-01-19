@@ -23,8 +23,8 @@ export default function BlockTwo() {
               AVAILABLE NOW
             </div> */}
             <div className="sets__eyebrow">
-        "AVALIABLE NOW"
-      </div>
+             "AVALIABLE NOW"
+            </div>
 
             <div className="text-4xl font-bold mt-5 text-white">
               NEW ON MARVEL UNLIMITED
