@@ -39,7 +39,7 @@ window.onscroll = function() {
     {/* <BlockTree/> */}
     <LoadMoreCardT/>
     <BlockVideo />
-    <BlockTwoCopie/>
+    {/* <BlockTwoCopie/> */}
     <BlockFooter/>
     </div>
   );
