@@ -101,16 +101,16 @@ export default function BlockVideo() {
         <div className="view-one-text">
           <div className="one-text-view">
             <div>
-              <p>MARVEL'S LONG STORY SHORT</p>
+              <p className="marvel-story">MARVEL'S LONG STORY SHORT</p>
             </div>
             <div>
-              <p className="text-2xl font-bold">
+              <p className="marvel-the-secret">
                 The Secret Invasion Was Caused By Hypnotized Cows?! | Long Story
                 Short
               </p>
             </div>
-            <div>
-              <p>
+            <div className="learn-box">
+              <p className="learn-text">
                 Learn how Tony Stark and a ragtag group of heroes and villains
                 stopped Earth from being taken over by an alien race!
               </p>

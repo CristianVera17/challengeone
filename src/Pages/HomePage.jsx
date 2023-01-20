@@ -9,6 +9,7 @@ import BlockFooter from "../Components/blockFooter/BlockFooter";
 import "../Styles/home-page.css"
 import SimpleSlider from "../Components/carousel/SimpleSlider";
 import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
+import BlockTwoCopie from "../Components/blockTwoCopie/BlockTwoCopie";
 
 export default function HomePage() {
 // JAVASCRIPT PARA QUE EL MENU CUANDO HACEMOS SCROLL HACIA ABAJO DESAPARESCA Y HACIA ARRIBA APARECE
@@ -33,29 +34,12 @@ window.onscroll = function() {
         </nav>
     </header>
     <div>hola</div>
-
-
-    {/* <div className="text-section">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos,
-        provident temporibus reprehenderit aspernatur dignissimos perferendis maiores commodi voluptatum quos accusantium,
-        excepturi alias. Corrupti unde fuga eveniet, dicta a aliquam nobis ipsam aliquid quasi beatae optio architecto at
-        consequatur libero qui commodi eos vitae harum numquam facere distinctio culpa ex aut! Eaque dolor commodi ab magnam,
-        animi fugit ducimus iste fuga nihil temporibus possimus. Accusantium, ratione minima dolor porro officiis excepturi
-        libero dolore. Hic at deleniti quis nesciunt sit illo natus repellendus, dignissimos tempora numquam facere sequi
-        aliquam modi eaque animi corporis?
-    </div> */}
-     {/* <NavbarOne />
-      <AutomaticSlider/>
-      <BlockTwo />
-      <BlockTree />
-      <BlockVideo />
-      <BlockTwo />
-    */}
-    <SimpleSlider/>
+    {/* <SimpleSlider/> */}
     <BlockTwo/>
-    <BlockTree/>
+    {/* <BlockTree/> */}
     <LoadMoreCardT/>
-    {/* <BlockVideo /> */}
+    <BlockVideo />
+    <BlockTwoCopie/>
     <BlockFooter/>
     </div>
   );

@@ -1,4 +1,5 @@
 .box-video {
+  /* background-color: gold; */
   width: 80%;
   height: auto;
   display: flex;
@@ -8,6 +9,9 @@
 .iframe-css {
   width: 100%;
   height: 500px;
+  -webkit-box-shadow: -4px 35px 87px -46px rgba(0,0,0,0.66);
+-moz-box-shadow: -4px 35px 87px -46px rgba(0,0,0,0.66);
+box-shadow: -4px 35px 87px -46px rgba(0,0,0,0.66);
 }
 
 .box-view {
@@ -15,6 +19,7 @@
   width: 100%;
   height: auto;
   justify-content: center;
+  /* background-color: red; */
   /* flex-direction: column; */
 }
 
@@ -27,6 +32,7 @@
   width: 30%;
   display: flex;
   justify-content: center;
+  /* background-color: green; */
 }
 
 .box-view-int {
@@ -52,9 +58,10 @@
 }
 
 .box-text-view-one {
-  height: 100px;
+  height: 130px;
   display: flex;
   justify-content: center;
+  /* background-color: greenyellow; */
 }
 
 .view-one-text {
@@ -69,6 +76,34 @@
 .iframe-view {
   width: 100%;
   height: 250px;
+}
+
+.marvel-story{
+  font-size: 12px;
+  font-weight: bold;
+  color: #767676;
+  font:Trebuchet,Helvetica,Arial,sans-serif;
+}
+
+.marvel-the-secret{
+font-size: 24px;
+font-weight: bold;
+}
+
+.learn-how{
+  font-size: 10px;
+  background-color: rebeccapurple;
+}
+
+.learn-text{
+  /* width: auto}; */
+  /* font: optional; */
+  font-size: 17px;
+}
+
+.learn-box{
+  width: 65%;
+  /* background-color: red; */
 }
 
 
