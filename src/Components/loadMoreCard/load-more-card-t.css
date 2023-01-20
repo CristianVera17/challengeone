@@ -1,0 +1,41 @@
+.box-card-load{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(8, 96, 96); */
+    display: flex;
+    justify-content: center;
+}
+
+.box-load-card{
+    width: 40%;
+    height: auto;
+    background-color: green;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-load{
+    width: 420px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+}
+
+.box-card-im{
+    width: 60%;
+    height: auto;
+    background-color: gold;
+}
+
+.box-im-card{
+   width: 20%;
+   background-color: rgb(71, 71, 71);
+}
+
+/* aside */
+
+.aside-box{
+    width: 100%;
+    height: auto;
+    background-color: red;
+}

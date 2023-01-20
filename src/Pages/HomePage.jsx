@@ -8,6 +8,7 @@ import BlockFooter from "../Components/blockFooter/BlockFooter";
 
 import "../Styles/home-page.css"
 import SimpleSlider from "../Components/carousel/SimpleSlider";
+import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
 
 export default function HomePage() {
 // JAVASCRIPT PARA QUE EL MENU CUANDO HACEMOS SCROLL HACIA ABAJO DESAPARESCA Y HACIA ARRIBA APARECE
@@ -53,8 +54,9 @@ window.onscroll = function() {
     <SimpleSlider/>
     <BlockTwo/>
     <BlockTree/>
-    <BlockVideo />
-     <BlockFooter/>
+    <LoadMoreCardT/>
+    {/* <BlockVideo /> */}
+    <BlockFooter/>
     </div>
   );
 }
