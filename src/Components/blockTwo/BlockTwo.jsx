@@ -9,7 +9,7 @@ import { useEffect } from "react";
 export default function BlockTwo() {
 
   const [items, setItems] = useState([]);
-  const [visible, setVisible] = useState();
+  const [visible, setVisible] = useState(8);
   // const showMoreItems = () => {
   //   setVisible((prevValue) => prevValue + 3);
   // };
@@ -63,13 +63,12 @@ export default function BlockTwo() {
         </div>
       </div>
 
-      <div className="box-five-one">
-        <div className="block-five-one">
+      {/* <div className="box-five-one"> */}
+        {/* <div className="block-five-one"> */}
           {/* <div>Hola</div> */}
-          <div className="block-five-center">
-            {/* <img className="image-block" src={Mlimg} alt="" /> */}
-          </div>
-        </div>
+          {/* <div className="block-five-center">
+          </div> */}
+        {/* </div> */}
 
 {/* Card */}
         <div className="box-five-tree">
@@ -78,12 +77,22 @@ export default function BlockTwo() {
             <div className="box-scroll-card">
               <div className="box-load-img">
                 <div className="box-img-load">
-                  <div className="img-load-one">
-                    <img
-                      className="load-img-css"
+                  <div className="img-load-one-two">
+                    <div className="box-d">
+                      <div className="efect-hovr">
+                      <img
+                      className=""
                       src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
                       alt=""
                     />
+                      </div>
+                       {/* <img
+                      className=""
+                      src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
+                      alt=""
+                    /> */}
+                    </div>
+                   
                   </div>
                   <div>
                     {" "}
@@ -93,14 +102,14 @@ export default function BlockTwo() {
                   </div>
                 </div>
               </div>
-              <div className="box-line-tree mt-5"></div>
+              {/* <div className="box-line-tree mt-5"></div> */}
             </div>
           ))}
 
 
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }
