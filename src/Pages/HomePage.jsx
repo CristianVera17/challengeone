@@ -6,6 +6,7 @@ import BlockFooter from "../Components/blockFooter/BlockFooter";
 import "../Styles/home-page.css"
 import SimpleSlider from "../Components/carousel/SimpleSlider";
 import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
+import BlockTwoCopie from "../Components/blockTwoCopie/BlockTwoCopie";
 
 
 export default function HomePage() {
@@ -34,6 +35,7 @@ window.onscroll = function() {
     <BlockTwo/>
     <LoadMoreCardT/>
     <BlockVideo />
+    <BlockTwoCopie/>
     <BlockFooter/>
     </div>
   );

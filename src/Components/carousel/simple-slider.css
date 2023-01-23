@@ -73,3 +73,11 @@
     margin-top: 56px;
   }
 }
+
+.slick-next {
+    right: 0;
+}
+
+.slick-next:before {
+    display: none;
+}
