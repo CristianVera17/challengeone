@@ -18,7 +18,7 @@ export default function BlockTwo() {
       .then((res) => {
         setItems(res.data.data.results);
       })
-      .catch((error) => console.log(error));
+      // .catch((error) => console.log(error));
   }, []);
 
   return (

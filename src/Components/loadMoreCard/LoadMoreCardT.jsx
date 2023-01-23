@@ -2,7 +2,7 @@ import React from "react";
 import "./load-more-card-t.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import Aside from "../aside/Aside";
+// import Aside from "../aside/Aside";
 
 export const LoadMoreCardT = () => {
   const [items, setItems] = useState([]);
@@ -27,10 +27,7 @@ export const LoadMoreCardT = () => {
       <div className="box-card-load">
         <div className="box-card-im">
           <div className="box-the-latest">
-            <div>
-              <div className="sets__eyebrow-two">THE LATEST</div>
-            </div>
-          </div>
+          <div className="sets__eyebrow-cd">THE LATEST</div>          </div>
 
           {items.slice(0, visible).map((item) => (
             <div className="box-load-card">
@@ -58,21 +55,9 @@ export const LoadMoreCardT = () => {
         <div className="box-im-card">
           <div className="aside-box">
             <div>
-              <div className="rail-featured__border-top">
-                <span className="icon--svg icon--border">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="186"
-                    height="55"
-                    viewBox="0 0 186 55"
-                  >
-                    <path
-                      d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z"
-                      mask="url(#mask-2)"
-                    ></path>
-                  </svg>
-                </span>
-              </div>
+
+
+
               <div>
                 <p className="the-hype-box">THE HYPE BOX</p>
               </div>
@@ -108,21 +93,8 @@ export const LoadMoreCardT = () => {
             </div>
 
             <div>
-              <div className="rail-featured__border-bottom">
-                <span className="icon--svg icon--border">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="186"
-                    height="55"
-                    viewBox="0 0 186 55"
-                  >
-                    <path
-                      d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z"
-                      mask="url(#mask-2)"
-                    ></path>
-                  </svg>
-                </span>
-              </div>
+             
+
             </div>
           </div>
 

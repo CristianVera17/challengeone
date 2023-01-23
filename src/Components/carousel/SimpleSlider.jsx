@@ -58,7 +58,13 @@ export default class SimpleSlider extends Component {
         <div className="box-slider-card">
           <div className="box-int-card-slider">
             <div className="box-sli-cd">
-              <div className="box-sli-fl">HOLA</div>
+              <div className="box-sli-fl">
+                <div>Hola</div>
+                <div>Hola</div>
+                <div>Hola</div>
+                <div>Hola</div>
+                <div>Hola</div>
+              </div>
             </div>
             <div className="box-sli-cd-two">
               <div className="box-cd-two">jjk</div>

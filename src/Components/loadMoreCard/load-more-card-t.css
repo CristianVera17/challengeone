@@ -219,3 +219,53 @@
   border-top: 25px solid rgb(50, 50, 50);
   border-right: 25px solid #ffffff;
 }
+
+
+.sets__eyebrow-cd{
+  font: 500;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(8, 8, 8);
+  margin: 36px 0;
+  position: relative;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sets__eyebrow-cd:after {
+  left: -6px;
+  top: calc(100% + 3px);
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+}
+.sets__eyebrow-cd:after,
+.sets__eyebrow-cd:before {
+  background-color: #c6a972;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg) skewX(45deg);
+  transform: rotate(-45deg) skewX(45deg);
+  width: 30px;
+}
+
+.sets__eyebrow-cd:before {
+  left: 53px;
+  top: -8px;
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+.sets__eyebrow-cd:after,
+.sets__eyebrow-cd:before {
+  background-color: #c6a972;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg) skewX(45deg);
+  transform: rotate(-45deg) skewX(45deg);
+  width: 30px;
+}
+
