@@ -1,6 +1,5 @@
 import "./block-footer.css";
 
-
 import React from "react";
 import Imgfooter from "../../assets/imgfooter.jpg";
 import Imglogo from "../../assets/logom.png";
@@ -13,6 +12,7 @@ import imgtr from "../../assets/ticon.png";
 import imgyt from "../../assets/yicon.png";
 import imgst from "../../assets/sicon.png";
 import imgps from "../../assets/picon.png";
+import ButtonEdit from "../buttonEdit/ButtonEdit";
 
 export default function BlockFooter() {
   return (
@@ -27,22 +27,19 @@ export default function BlockFooter() {
         <div className="footer-box-int">
           <div className="footer-box-int-one">
             <div className="int-one-foo">
-              <div className="text-1xl font-bold text-red-500">
-                MARVEL INSIDER
-              </div>
-              <div className="text-3xl font-bold text-white">
-                Watch, Earn, Redeem!
-              </div>
-              <div className="text-white">
+              <div className="insider-text">MARVEL INSIDER</div>
+              <div className="marvel-text-two">Watch, Earn, Redeem!</div>
+              <div className="marvel-text-tree">
                 Get rewarded for doing what you already do as a fan.
               </div>
               <div>
-                <button className="mt-5 text-white">JOIN NOW</button>
+                <button className="mt-5 text-white">
+                  <ButtonEdit />
+                </button>
               </div>
-              {/* <div>Terms and Conditions Apply.</div> */}
             </div>
             <div className="int-one-foo-two">
-              <div className="text-white">Terms and Conditions Apply.</div>
+              <div>Terms and Conditions Apply.</div>
             </div>
           </div>
         </div>
@@ -81,8 +78,8 @@ export default function BlockFooter() {
                   src={Insiderlogo}
                 />
               </div>
-              <div className="ml-5">
-                <p className="text-white">MARVEL INSIDER</p>
+              <div className="ml-5 marvel-insider">
+                <p className="text-white font-bold">MARVEL INSIDER</p>
                 <p className="text-white">
                   Get Rewarded for Being a Marvel Fan
                 </p>
@@ -92,8 +89,8 @@ export default function BlockFooter() {
               <div className="ml-5">
                 <img className="unlimited-box" src={Unlimitedlogo} alt="" />
               </div>
-              <div className="ml-10">
-                <p className="text-white">MARVEL UNLIMITED</p>
+              <div className="ml-10 marvel-insider">
+                <p className="text-white font-bold">MARVEL UNLIMITED</p>
                 <p className="text-unlimited text-white">
                   Access Over 30,000+ Digital Comics
                 </p>
@@ -102,70 +99,64 @@ export default function BlockFooter() {
           </div>
 
           <div className="footer-box-two-tree">
-            <div className="text-white">REDES SOCIALES</div>
+            <div className="text-white follow-marvel">FOLLOW MARVEL</div>
             <div className="box-red-social">
               <div className="box-social-red">
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-fb" src={imgfb} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-fb" src={imgfb} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-tw" src={imgtw} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-tw" src={imgtw} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-ig" src={imgig} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-ig" src={imgig} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-tr" src={imgtr} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-tr" src={imgtr} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-yt"  src={imgyt} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-yt" src={imgyt} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-st" src={imgst} alt="" />
-            </div>
+                  <div className="rs-box">
+                    <img className="img-icon-st" src={imgst} alt="" />
+                  </div>
                 </div>
                 <div className="box-rs-fr">
-                <div className="rs-box">
-              <img className="img-icon-pr" src={imgps} alt="" />
-            </div>
-
+                  <div className="rs-box">
+                    <img className="img-icon-pr" src={imgps} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
       <div className="box-cookie">
         <div className="box-int-cookie">
           <div>
-            <p className="text-footer text-gray-500">Terms of Use</p>
+            <p className="text-footer ">Terms of Use</p>
           </div>
           <div>
-            <p className="text-footer text-gray-500">Privacy Policy</p>
+            <p className="text-footer ">Privacy Policy</p>
           </div>
-          <dip className="text-footer text-gray-500">
-            Your US State Privacy Rights
-          </dip>
-          <dip className="text-footer text-gray-500">
-            Children's Online Privacy Policy
-          </dip>
-          <dip className="text-footer text-gray-500">License Agreement</dip>
-          <dip className="text-footer text-gray-500">Interest-Based Ads</dip>
-          <dip className="text-footer text-gray-500">Marvel Insider Terms</dip>
-          <dip className="text-footer text-gray-500">©2023 MARVEL</dip>
+          <div className="text-footer ">Your US State Privacy Rights</div>
+          <div className="text-footer ">Children's Online Privacy Policy</div>
+          <div className="text-footer ">License Agreement</div>
+          <div className="text-footer ">Interest-Based Ads</div>
+          <div className="text-footer ">Marvel Insider Terms</div>
+          <div className="text-footer ">©2023 MARVEL</div>
         </div>
       </div>
     </div>

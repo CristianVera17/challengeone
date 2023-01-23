@@ -1,7 +1,6 @@
 import React from "react";
 import { AxiosCharacters } from "../Components/axiosCharacters/AxiosCharacters";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
-// import FooterHome from "../Components/FooterHome/FooterHome";
 import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
 import { useAuth } from "../Context/authContext";
 import Wallpaperbg from "../assets/mwpmarvel.webp";
@@ -41,7 +40,6 @@ export default function Characters() {
       <AxiosCharacters />
       Characters HOME DEL VIDEO {user.email}
       <button onClick={handleLogout}>logout cerrar sesion</button>
-      {/* <FooterHome /> */}
       <BlockFooter />
     </div>
   );

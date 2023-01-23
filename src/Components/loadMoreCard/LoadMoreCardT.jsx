@@ -43,15 +43,14 @@ export const LoadMoreCardT = () => {
                       alt=""
                     />
                   </div>
-                  <div>
+                  <div className="load-text-box">
                     {" "}
+                    <p className="font-bold">{item.name}</p>
                     <p>{item.id}</p>
-                    <p>{item.name}</p>
-                    {/* <p>{item.type}</p> */}
                   </div>
                 </div>
               </div>
-              <div className="box-line-tree mt-5"></div>
+              <div className="box-line-tree-two mt-5"></div>
             </div>
           ))}
         </div>
@@ -75,19 +74,21 @@ export const LoadMoreCardT = () => {
                 </span>
               </div>
               <div>
-                <p>THE HYPE BOX</p>
+                <p className="the-hype-box">THE HYPE BOX</p>
               </div>
-              <div>
-                <p>
-                  Can’t-miss news and updates from across the Marvel Universe!
-                </p>
+              <div className="query-media">
+                <div className="center-query">
+                  <p className="text-media-query">
+                    Can’t-miss news and updates from across the Marvel Universe!
+                  </p>
+                </div>
               </div>
             </div>
             <div className="content-load">
               {items.slice(0, visible).map((item) => (
                 <div className="box-load-card-two">
                   <div className="card-load-two">
-                    <div className="int-box-card-load-two">
+                    <div className="int-box-card-load-cd">
                       <div className="box-load-img-two">
                         <img
                           className="load-img-css-two"
@@ -96,17 +97,9 @@ export const LoadMoreCardT = () => {
                         />
                       </div>
 
-                      {/* <div className="load-img-card">
-                      <img
-                      className="load-img-css"
-                      src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
-                      alt=""
-                       />
-                  </div> */}
                       <div className="box-title-hype">
-                        <p>{item.id}</p>
                         <p>{item.name}</p>
-                        {/* <p>{item.type}</p> */}
+                        <p>{item.id}</p>
                       </div>
                     </div>
                   </div>
@@ -135,10 +128,24 @@ export const LoadMoreCardT = () => {
 
           <div></div>
         </div>
-
-        {/* <button onClick={showMoreItems}>Load Mojre</button> */}
       </div>
-      <button onClick={showMoreItems}>Load Mojre</button>
+      <div className="box-button-spacing">
+        <div className="box-button-spacing-two">
+          {/* <button className="mt-5" onClick={showMoreItems}>LOAD MORE</button> */}
+
+          <button className="mt-5" onClick={showMoreItems}>
+            <div className="box-botton-cd">
+              <div className="box-int-bot-cd">
+                <div className="box-int-cor-two-cd"></div>
+              </div>
+              LOAD MORE
+              <div className="box-int-bot-cd-two">
+                <div className="box-int-cor-cd"></div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
-
 //IMPORTACION DE IMAGENES
 import LogoMarvel from "../../assets/marvelLogo.png";
 import LogoDisney from "../../assets/disneyedit.png";
@@ -129,7 +128,7 @@ const NavbarOne = () => {
 
       {/*BARRA CON TEXTO MAS LOGO DE DISNEY*/}
       {/* BAR WITH TEXT PLUS DISNEY LOGO */}
-      <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
+      {/* <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
         <div className="max-lg:hidden">
           STREAM THE GOTG: HOLIDAY SPECIAL EXCLUSIVELY ON
         </div>
@@ -137,7 +136,7 @@ const NavbarOne = () => {
           STREAM THE GOTG: HOLIDAY SPECIAL ON
         </div>
         <img className="w-16 h-8 ml-3" src={LogoDisney} alt="" />
-      </div>
+      </div> */}
       {/*----------------------------------------------------*/}
 
       {/* MENU LATERAL */}
@@ -153,7 +152,7 @@ const NavbarOne = () => {
           open ? "w-screen" : "w-0"
         } bg-black z-30 min-h-screen fixed top-0 left-0 transition-all duration-300`}
       >
-        <div className={`${!open && "hidden" } pt-3`}>
+        <div className={`${!open && "hidden"} pt-3`}>
           <button
             className="ml-4 text-white mb-14"
             onClick={() => setOpen(false)}

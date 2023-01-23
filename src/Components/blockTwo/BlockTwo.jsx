@@ -7,12 +7,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 export default function BlockTwo() {
-
   const [items, setItems] = useState([]);
   const [visible, setVisible] = useState(8);
-  // const showMoreItems = () => {
-  //   setVisible((prevValue) => prevValue + 3);
-  // };
 
   useEffect(() => {
     axios
@@ -25,10 +21,9 @@ export default function BlockTwo() {
       .catch((error) => console.log(error));
   }, []);
 
-
-
   return (
     <div className="img-od">
+      {/* INICIO DE BLOQUE PRINCIPAL */}
       <div className="box-inline mt-4">
         <div className="box-int-inline">
           <div className="inline-int">
@@ -37,14 +32,12 @@ export default function BlockTwo() {
             </div>
             <div className="sets__eyebrow">AVALIABLE NOW</div>
 
-            <div className="text-4xl font-bold mt-5 text-white">
-              NEW ON MARVEL UNLIMITED
-            </div>
+            <div className="text-new-on">NEW ON MARVEL UNLIMITED</div>
             <div className="mt-2 text-white">
               Read these plus 30,000+ digital comics for $9.99 a month!
             </div>
 
-            <button className="button-one-ori mt-5">
+            <button className="mt-5">
               <div className="box-botton">
                 <div className="box-int-bot">
                   <div className="box-int-cor-two"></div>
@@ -62,17 +55,11 @@ export default function BlockTwo() {
           <img className="image-block" src={Mlimg} alt="" />
         </div>
       </div>
+      {/* FINAL DEL BLOQUE PRINCIPAL */}
 
-      {/* <div className="box-five-one"> */}
-        {/* <div className="block-five-one"> */}
-          {/* <div>Hola</div> */}
-          {/* <div className="block-five-center">
-          </div> */}
-        {/* </div> */}
-
-{/* Card */}
-        <div className="box-five-tree">
-          <div className="box-int-tree">
+      {/*BLOQUE SECUNDARIO*/}
+      <div className="box-five-tree">
+        <div className="box-int-tree">
           {items.slice(0, visible).map((item) => (
             <div className="box-scroll-card">
               <div className="box-load-img">
@@ -80,56 +67,28 @@ export default function BlockTwo() {
                   <div className="img-load-one-two">
                     <div className="box-d">
                       <div className="efect-hovr">
-                      <img
-                      className=""
-                      src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
-                      alt=""
-                    />
+                        <img
+                          className="box-img-card-slider"
+                          src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
+                          alt=""
+                        />
                       </div>
-                       {/* <img
-                      className=""
-                      src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
-                      alt=""
-                    /> */}
                     </div>
-                   
                   </div>
-                  <div>
+                  <div className="box-title-card-scroll">
                     {" "}
-                    <p>{item.id}</p>
-                    <p>{item.name}</p>
-                    {/* <p>{item.type}</p> */}
+                    <p className="text-hover-card">{item.name}</p>
+                    <p className="text-hover-card-two">{item.id}</p>
                   </div>
                 </div>
               </div>
-              {/* <div className="box-line-tree mt-5"></div> */}
             </div>
           ))}
-
-
-          </div>
         </div>
-      {/* </div> */}
+      </div>
+      {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );
 }
-
 {
-  /* <div className="wrapper">
-
-              <div className="wrapper-box">
-              <div className="wrapper-box-two">
-              <div className="item">
-              <div>
-                                <img className="image-block" src={Cardone} alt="" />
-
-              </div>
-              <div>h</div>
-              </div>
-              <div className="wrapper-box-text">hdsjsd</div>
-              </div>
-
-              </div>
-           
-            </div> */
 }

@@ -1,23 +1,74 @@
-.box-sli-one{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    margin-top: 110px;
-    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
+.box-sli-one {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 89px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
 }
 
-.box-sli-two{
-    background-color: aqua;
-    height: 300px;
-    z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+.box-sli-two {
+  background-color: aqua;
+  height: 470px;
+  z-index: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
-.box-sli-tree{
-    width: 100vh;
-    height: 100%;
+.box-sli-tree {
+  width: 100vh;
+  height: 100%;
 }
 
-.slick-prev:before{
-   /* display:; */
-   display: none;
+.slick-prev:before {
+  /* display:; */
+  display: none;
+}
+
+.box-slider-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: red;
+}
+
+.box-int-card-slider {
+  width: 80%;
+  height: 80px;
+  /* background-color: gold; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-sli-cd {
+  /* background-color: rgb(125, 9, 145); */
+  width: 80%;
+  height: 100%;
+}
+
+.box-sli-cd-two {
+  /* background-color: rgb(128, 0, 77); */
+  width: 20%;
+  height: 100%;
+}
+
+.box-sli-fl {
+  position: relative;
+  margin-top: -60px;
+  /* margin-bottom: 50px; */
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 140%;
+}
+
+.box-cd-two {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(3, 122, 122);
+  position: relative;
+  margin-top: -40px;
+}
+
+@media (max-width: 1117px) {
+  .box-sli-one {
+    margin-top: 56px;
+  }
 }

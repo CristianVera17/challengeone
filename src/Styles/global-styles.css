@@ -1,58 +1,3 @@
-/* CSS PRINCIPAL CONTIENE LOS CSS DE CADA COMPONENTE PARA ENTENDERLO LEERLO VA POR SU CSS CORESPONDIENTE A SU COMPONENTE
-TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "---------------------------------" */
-
-/* CSS SLIDER AUTOMATIC */
-/* .slider-one {
-  width: 100%;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-}
-
-.slider-one ul {
-  display: flex;
-  padding: 0;
-  width: 400%;
-  animation: cambio 5s infinite;
-}
-
-.slider-one li {
-  width: 90%;
-  list-style: none;
-}
-
-.slider-one img {
-  width: 100%;
-  height: 470px;
-}
-
-@keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -200%;
-  }
-  100% {
-    margin-left: -200%;
-  }
-} */
-
 .content-one {
   display: flex;
   justify-content: space-around;
@@ -62,10 +7,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   position: relative;
   top: -70px;
 }
-
-/* .img-hulk {
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-} */
 
 /* CSS BLOCK HOME TWO */
 
@@ -252,7 +193,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 }
 
 .box-end-one {
- 
   width: 13%;
   margin: 10px;
   height: 42%;
@@ -271,13 +211,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   justify-content: space-between;
 }
 
-/* .BUTON {
-  background-color: rgb(255, 0, 0);
-  width: 100px;
-  height: 50px;
-  clip-path: polygon(0 0, 90% 0, 120% 100%, 0 100%);
-} */
-/* -------------- */
 .box-foo-one {
   display: flex;
   align-items: center;
@@ -386,7 +319,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
     width: 100%;
     height: 100%;
   }
- 
 }
 
 .rs {
@@ -400,7 +332,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   margin: 2px;
   width: 10px;
   height: 10px;
-  /* background-color: #e62429; */
 }
 
 .box-rs {
@@ -410,7 +341,6 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
   height: auto;
   width: 80%;
   height: 100%;
-  /* background-color: red; */
 }
 
 @media (max-width: 559px) {
@@ -467,24 +397,7 @@ TENER EN CUENTA PARA EL FINAL DE CADA SECCION SE DETERMINA POR UNA LINEA "------
 .img-logo-rs-mu {
   width: 17px;
   height: 25px;
-} 
-
-/* 
- */
-
-/* button {
-  background: #e62429;
-  border: none;
-  padding: 10px 20px;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  width: 120px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transform: skew(-21deg);
-  clip-rule: polygon(0 0, 90% 0, 10% 100%, 0 100%);
-} */
+}
 
 span {
   color: white;
@@ -515,10 +428,8 @@ button:hover::before {
   opacity: 1;
 }
 
-/*  */
-
 /* CSS LOGIN */
-.box-login{
+.box-login {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -528,13 +439,13 @@ button:hover::before {
   background-color: black;
 }
 
-.form-css{
+.form-css {
   display: flex;
   flex-direction: column;
 }
 
 /* CSS REGISTER */
-.box-register{
+.box-register {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -544,24 +455,20 @@ button:hover::before {
   background-color: black;
 }
 
-
 /* CHARACTERS CSS*/
 
-.box-int-wall{
+.box-int-wall {
   width: 100%;
   height: 100%;
   background-image: url(../assets/mwpmarvel.webp);
-  /* opacity: 0.3; */
- 
 }
 
-
-.img-characters{
+.img-characters {
   width: 100%;
   height: 100%;
 }
 
-.text-int-wall{
+.text-int-wall {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -569,21 +476,3 @@ button:hover::before {
   height: 100%;
   flex-direction: column;
 }
-
-/* .box-charac{
-  background-color: green;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.box-int-charac{
-  background-color: red;
-  width: 85%;
-  height: 100px;
-} */
-
-
-
-

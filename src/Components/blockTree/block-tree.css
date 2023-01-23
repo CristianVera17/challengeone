@@ -3,7 +3,6 @@
   width: 100%;
   height: auto;
   display: flex;
-  /* margin-top: 450px; */
 }
 
 .box-tree-int {
@@ -32,14 +31,12 @@
 .box-tree-img-two {
   width: 100%;
   height: 100%;
-  /* background-color: gold; */
   display: flex;
   justify-content: right;
 }
 
-.box-tree-left{
+.box-tree-left {
   width: 93%;
-  /* background-color: red; */
 }
 
 .box-img {
@@ -62,9 +59,8 @@
   width: 80%;
 }
 
-.box-ext-card{
+.box-ext-card {
   width: 90%;
-  /* background-color: rgb(122, 240, 72); */
 }
 
 @media (max-width: 886px) {
@@ -77,11 +73,11 @@
   .box-tree-int {
     width: 100%;
     margin-top: 380px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 
   .box-tree-int-two {
@@ -116,9 +112,8 @@
   height: 5%;
 }
 
-
-.sets__eyebrow-two{
-  font: 500 ;
+.sets__eyebrow-two {
+  font: 500;
   line-height: 1;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -135,7 +130,8 @@
   -webkit-transform-origin: right top;
   transform-origin: right top;
 }
-.sets__eyebrow-two:after, .sets__eyebrow-two:before {
+.sets__eyebrow-two:after,
+.sets__eyebrow-two:before {
   background-color: #c6a972;
   content: "";
   display: block;
@@ -152,7 +148,8 @@
   -webkit-transform-origin: left bottom;
   transform-origin: left bottom;
 }
-.sets__eyebrow-two:after, .sets__eyebrow:before {
+.sets__eyebrow-two:after,
+.sets__eyebrow:before {
   background-color: #c6a972;
   content: "";
   display: block;
@@ -162,7 +159,6 @@
   transform: rotate(-45deg) skewX(45deg);
   width: 30px;
 }
-
 
 .rail-featured__border-top .icon--svg {
   height: 100%;
@@ -181,11 +177,16 @@
 .icon--svg {
   fill: #151515;
 }
-*, :after, :before {
+*,
+:after,
+:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*, :after, :before, section {
+*,
+:after,
+:before,
+section {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -209,7 +210,6 @@ span {
   transform: skew(0deg);
 }
 
-/*  */
 .rail-featured__border-bottom {
   display: block;
   position: relative;
@@ -234,11 +234,16 @@ span {
 .icon--svg {
   fill: #151515;
 }
-*, :after, :before {
+*,
+:after,
+:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*, :after, :before, section {
+*,
+:after,
+:before,
+section {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }

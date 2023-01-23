@@ -1,15 +1,12 @@
 import React from "react";
 import NavbarOne from "../Components/Nav/NavbarOne";
-// import { AutomaticSlider } from "../Components/automaticSlider/AutomaticSlider";
-import BlockTree from "../Components/blockTree/BlockTree";
 import BlockTwo from "../Components/blockTwo/BlockTwo";
 import BlockVideo from "../Components/BlockVideo/BlockVideo";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
-
 import "../Styles/home-page.css"
 import SimpleSlider from "../Components/carousel/SimpleSlider";
 import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
-import BlockTwoCopie from "../Components/blockTwoCopie/BlockTwoCopie";
+
 
 export default function HomePage() {
 // JAVASCRIPT PARA QUE EL MENU CUANDO HACEMOS SCROLL HACIA ABAJO DESAPARESCA Y HACIA ARRIBA APARECE
@@ -25,21 +22,18 @@ window.onscroll = function() {
     ubicacionPrincipal = Desplazamiento_Actual;
 }
   return (
-    <div>
+    <div className="layout-one">
        <header className="header-css">
         <nav id="navbar">
-            <div class="navegacion">
+            <div className="navegacion">
                 <NavbarOne/>
             </div>
         </nav>
     </header>
-    <div>hola</div>
-    {/* <SimpleSlider/> */}
+    <SimpleSlider/>
     <BlockTwo/>
-    {/* <BlockTree/> */}
     <LoadMoreCardT/>
     <BlockVideo />
-    {/* <BlockTwoCopie/> */}
     <BlockFooter/>
     </div>
   );
