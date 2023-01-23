@@ -128,7 +128,7 @@ const NavbarPrivate = () => {
 
       {/*BARRA CON TEXTO MAS LOGO DE DISNEY*/}
       {/* BAR WITH TEXT PLUS DISNEY LOGO */}
-      <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
+      {/* <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
         <div className="max-lg:hidden font-bold">
           REWARD YOUR MARVEL FANDOM WITH
         </div>
@@ -136,7 +136,7 @@ const NavbarPrivate = () => {
           STREAM THE GOTG: HOLIDAY SPECIAL ON
         </div>
         <img className="w-16 h-6 ml-3" src={LogoInsider} alt="" />
-      </div>
+      </div> */}
       {/*-------------------------------------------------*/}
 
       {/* MENU LATERAL */}

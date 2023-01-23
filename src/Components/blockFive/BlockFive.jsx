@@ -9,7 +9,7 @@ export default function BlockFive() {
       <div className="box-five-one">
         <div className="block-five-one">
           <div className="block-five-center">
-            <img className="image-block" src={Avengersimg} alt="" />
+            <img className="image-block" src={Avengersimg} alt="img" />
           </div>
         </div>
 
@@ -17,10 +17,10 @@ export default function BlockFive() {
           <div className="box-int-tree">
             <div className="wrapper">
               <div className="item">
-                <img className="image-block" src={Cleanimg} alt="" />
+                <img className="image-block" src={Cleanimg} alt="img" />
               </div>
               <div className="item">
-                <img className="image-block" src={Cleanimg} alt="" />
+                <img className="image-block" src={Cleanimg} alt="img" />
               </div>
               <div className="item">
                 <img className="image-block" src={Cleanimg} alt="" />

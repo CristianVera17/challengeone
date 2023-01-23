@@ -12,10 +12,10 @@ export default function BlockVideo() {
               className="iframe-css"
               scrolling="no"
               src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-              width="640"
-              height="360"
-              allowfullscreen
-              frameborder="0"
+              // width="640"
+              // height="360"
+              // allowfullscreen
+             
             ></iframe>
             `
           </div>
@@ -28,10 +28,9 @@ export default function BlockVideo() {
                     className="iframe-view"
                     scrolling="no"
                     src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-                    width="640"
-                    height="360"
-                    allowfullscreen
-                    frameborder="0"
+                    // width="640"
+                    // height="360"
+                    // allowfullscreen
                   ></iframe>
                   `
                 </div>
@@ -42,10 +41,9 @@ export default function BlockVideo() {
                     className="iframe-view"
                     scrolling="no"
                     src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-                    width="640"
-                    height="360"
-                    allowfullscreen
-                    frameborder="0"
+                    // width="640"
+                    // height="360"
+                    // allowfullscreen
                   ></iframe>
                   `
                 </div>
@@ -56,10 +54,9 @@ export default function BlockVideo() {
                     className="iframe-view"
                     scrolling="no"
                     src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-                    width="640"
-                    height="360"
-                    allowfullscreen
-                    frameborder="0"
+                    // width="640"
+                    // height="360"
+                    // allowfullscreen
                   ></iframe>
                   `
                 </div>
@@ -70,10 +67,9 @@ export default function BlockVideo() {
                     className="iframe-view"
                     scrolling="no"
                     src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-                    width="640"
-                    height="360"
-                    allowfullscreen
-                    frameborder="0"
+                    // width="640"
+                    // height="360"
+                    // allowfullscreen
                   ></iframe>
                   `
                 </div>
@@ -84,10 +80,9 @@ export default function BlockVideo() {
                     className="iframe-view"
                     scrolling="no"
                     src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
-                    width="640"
-                    height="360"
-                    allowfullscreen
-                    frameborder="0"
+                    // width="640"
+                    // height="360"
+                    // allowfullscreen
                   ></iframe>
                   `
                 </div>

@@ -48,7 +48,9 @@ export const AxiosCharacters = () => {
       {/*  */}
       <div className="box-charact">
         <div className="box-charact-int">
-          <div><p className="text-2xl font-bold">FEATURED CHARACTERS</p></div>
+          <div className="mt-5">
+          <div className="sets__eyebrow"> <p className="feature-cd">FEATURED CHARACTERS</p></div>
+          </div>
         </div>
       </div>
 
@@ -59,7 +61,7 @@ export const AxiosCharacters = () => {
               {" "}
               <img
                 src={`${per.thumbnail.path}.${per.thumbnail.extension}`}
-                alt=""
+                alt="img"
               />
               <div>
                 <p>{per.name}</p>
@@ -83,7 +85,7 @@ export const AxiosCharacters = () => {
               {" "}
               <img
                 src={`${eve.thumbnail.path}.${eve.thumbnail.extension}`}
-                alt=""
+                alt="img"
               />
               <div>
                 <p>{eve.name}</p>
