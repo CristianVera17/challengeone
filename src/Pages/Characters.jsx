@@ -5,6 +5,9 @@ import LogoInsider from "../assets/insider.png";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
 import { useAuth } from "../Context/authContext";
 import "../Styles/characters.css";
+import { FeatureCharactersAxios } from "../Components/featureCharacters/FeatureCharactersAxios";
+import { CharactersSpotlight } from "../Components/charactersSpotg/CharactersSpotlight";
+// import { FeatureCharactersAxios } from "../Components/featureCharacters/featureCharactersAxios";
 
 export default function Characters() {
   const { user, logout, loading } = useAuth();
@@ -55,6 +58,28 @@ export default function Characters() {
           </div>
         </div>
       </div>
+
+      <div className="box-charact">
+        <div className="box-charact-int">
+          <div className="mt-5">
+          <div className="sets__eyebrow"> <p className="feature-cd">FEATURED CHARACTERS</p></div>
+          </div>
+        </div>
+      </div>
+
+      <FeatureCharactersAxios/>
+      <CharactersSpotlight/>
+      <FeatureCharactersAxios/>
+      {/* <div className="box-charact">
+        <div className="box-charact-int">
+          <div className="mt-5">
+          <div className="sets__eyebrow"> <p className="feature-cd">MARVEL CHARACTERS LIST</p></div>
+          </div>
+        </div>
+      </div> */}
+
+
+      {/* <FeatureCharactersAxios/> */}
       <AxiosCharacters />
       Usuario/a {user.email}
       <button onClick={handleLogout}>CERRAR SESION</button>
