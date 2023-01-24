@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 //IMPORTACION DE IMAGENES
 import LogoMarvel from "../../assets/marvelLogo.png";
-import LogoInsider from "../../assets/insider.png";
+// import LogoInsider from "../../assets/insider.png";
 import LogoUnlimited from "../../assets/limited.png";
 import InLogo from "../../assets/in-logo.png";
 
@@ -125,7 +125,6 @@ const NavbarPrivate = () => {
         </div>
       </div>
       {/*------------------------------------------------*/}
-
       {/*BARRA CON TEXTO MAS LOGO DE DISNEY*/}
       {/* BAR WITH TEXT PLUS DISNEY LOGO */}
       {/* <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
@@ -174,6 +173,7 @@ const NavbarPrivate = () => {
           </button>
 
           {/*LINKS MENU LATERAL*/}
+
           <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
             Link 1
           </div>

@@ -1,8 +1,4 @@
-// SIN USO CREAMOS OTRO MAS ORGANIZADO
-// EL QUE ESTAMOS USANDO ES BLOCK FOOTER
-
 import React from "react";
-import "../../Styles/global-styles.css";
 import imgfooter from "../../assets/imgfooter.jpg";
 import logom from "../../assets/logom.png";
 import logou from "../../assets/insider.png";
@@ -14,6 +10,7 @@ import imgtr from "../../assets/ticon.png";
 import imgyt from "../../assets/yicon.png";
 import imgst from "../../assets/sicon.png";
 import imgps from "../../assets/picon.png";
+import "../../Styles/global-styles.css";
 
 export default function FooterHome() {
   return (

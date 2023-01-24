@@ -1,13 +1,12 @@
 import React from "react";
 import NavbarOne from "../Components/Nav/NavbarOne";
+import SimpleSlider from "../Components/carousel/SimpleSlider";
 import BlockTwo from "../Components/blockTwo/BlockTwo";
 import BlockVideo from "../Components/BlockVideo/BlockVideo";
-import BlockFooter from "../Components/blockFooter/BlockFooter";
-import "../Styles/home-page.css"
-import SimpleSlider from "../Components/carousel/SimpleSlider";
-import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
 import BlockTwoCopie from "../Components/blockTwoCopie/BlockTwoCopie";
-
+import BlockFooter from "../Components/blockFooter/BlockFooter";
+import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
+import "../Styles/home-page.css"
 
 export default function HomePage() {
 // JAVASCRIPT PARA QUE EL MENU CUANDO HACEMOS SCROLL HACIA ABAJO DESAPARESCA Y HACIA ARRIBA APARECE
@@ -21,7 +20,7 @@ window.onscroll = function() {
         document.getElementById('navbar').style.top = '-200px';
     }
     ubicacionPrincipal = Desplazamiento_Actual;
-}
+};
   return (
     <div className="layout-one">
        <header className="header-css">
@@ -39,4 +38,4 @@ window.onscroll = function() {
     <BlockFooter/>
     </div>
   );
-}
+};

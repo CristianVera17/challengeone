@@ -90,7 +90,6 @@
   align-items: center;
   width: 50%;
   height: 350px;
-  /* background-color: rgb(124, 206, 30); */
 }
 
 .block-footer-img {
@@ -354,6 +353,7 @@
 }
 
 /* ICONS MEDIDAS*/
+
 .img-icon-fb {
   width: 20px;
   height: 20px;

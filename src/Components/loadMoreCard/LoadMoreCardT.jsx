@@ -1,8 +1,7 @@
 import React from "react";
-import "./load-more-card-t.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
-// import Aside from "../aside/Aside";
+import "./load-more-card-t.css";
 
 export const LoadMoreCardT = () => {
   const [items, setItems] = useState([]);
@@ -27,7 +26,8 @@ export const LoadMoreCardT = () => {
       <div className="box-card-load">
         <div className="box-card-im">
           <div className="box-the-latest">
-          <div className="sets__eyebrow-cd">THE LATEST</div>          </div>
+            <div className="sets__eyebrow-cd">THE LATEST</div>{" "}
+          </div>
 
           {items.slice(0, visible).map((item) => (
             <div className="box-load-card">
@@ -55,9 +55,6 @@ export const LoadMoreCardT = () => {
         <div className="box-im-card">
           <div className="aside-box">
             <div>
-
-
-
               <div>
                 <p className="the-hype-box">THE HYPE BOX</p>
               </div>
@@ -92,10 +89,7 @@ export const LoadMoreCardT = () => {
               ))}
             </div>
 
-            <div>
-             
-
-            </div>
+            <div></div>
           </div>
 
           <div></div>
@@ -103,8 +97,6 @@ export const LoadMoreCardT = () => {
       </div>
       <div className="box-button-spacing">
         <div className="box-button-spacing-two">
-          {/* <button className="mt-5" onClick={showMoreItems}>LOAD MORE</button> */}
-
           <button className="mt-5" onClick={showMoreItems}>
             <div className="box-botton-cd">
               <div className="box-int-bot-cd">

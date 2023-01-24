@@ -4,7 +4,7 @@ import "./navbar.css";
 
 //IMPORTACION DE IMAGENES
 import LogoMarvel from "../../assets/marvelLogo.png";
-import LogoDisney from "../../assets/disneyedit.png";
+// import LogoDisney from "../../assets/disneyedit.png";
 import LogoUnlimited from "../../assets/limited.png";
 import InLogo from "../../assets/in-logo.png";
 
@@ -174,6 +174,7 @@ const NavbarOne = () => {
           </button>
 
           {/*LINKS MENU LATERAL*/}
+          
           <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
             Link 1
           </div>

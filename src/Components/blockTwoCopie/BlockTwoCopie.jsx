@@ -1,11 +1,11 @@
-import React, { Children } from "react";
-import "./block-two-copie.css";
+import React from "react";
 import axios from "axios";
-import ImgMv from "../../assets/boxtwocopie.png";
-import Mulogo from "../../assets/mulogo.png";
 import { useState } from "react";
 import { useEffect } from "react";
-import ButtonEdit from "../buttonEdit/ButtonEdit";
+import ImgMv from "../../assets/boxtwocopie.png";
+import "./block-two-copie.css";
+// import Mulogo from "../../assets/mulogo.png";
+// import ButtonEdit from "../buttonEdit/ButtonEdit";
 
 export default function BlockTwoCopie(Children) {
   const [items, setItems] = useState([]);
@@ -102,6 +102,4 @@ export default function BlockTwoCopie(Children) {
       {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );
-}
-{
-}
+};

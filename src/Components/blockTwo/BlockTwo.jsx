@@ -1,10 +1,11 @@
 import React from "react";
-import "./block-two.css";
 import axios from "axios";
-import Mlimg from "../../assets/mvblock.png";
-import Mulogo from "../../assets/mulogo.png";
 import { useState } from "react";
 import { useEffect } from "react";
+import Mlimg from "../../assets/mvblock.png";
+import Mulogo from "../../assets/mulogo.png";
+import "./block-two.css";
+
 
 export default function BlockTwo() {
   const [items, setItems] = useState([]);
@@ -89,6 +90,4 @@ export default function BlockTwo() {
       {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );
-}
-{
 }

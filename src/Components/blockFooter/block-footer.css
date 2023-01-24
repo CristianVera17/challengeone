@@ -233,7 +233,6 @@
 
   .box-social-red {
     justify-content: space-between;
-    /* background-color: green; */
   }
 
   .box-red-social {
@@ -265,7 +264,6 @@
 }
 
 .rs-box {
-  /* background-color: gold; */
   width: 20px;
   height: 20px;
 }
@@ -333,17 +331,12 @@
   .box-social-red {
     width: 100%;
     flex-wrap: nowrap;
-    /* margin: 0px; */
   }
   .box-cookie {
     display: flex;
     height: 270px;
     background-color: #202020;
     align-items: center;
-    /* color: #bc0e0e; */
-    /* margin-top: 10px; */
-
-    /* margin-top: 500px; */
   }
 
   .box-int-cookie {

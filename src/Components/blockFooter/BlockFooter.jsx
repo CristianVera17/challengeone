@@ -1,5 +1,3 @@
-import "./block-footer.css";
-
 import React from "react";
 import Imgfooter from "../../assets/imgfooter.jpg";
 import Imglogo from "../../assets/logom.png";
@@ -13,6 +11,7 @@ import imgyt from "../../assets/yicon.png";
 import imgst from "../../assets/sicon.png";
 import imgps from "../../assets/picon.png";
 import ButtonEdit from "../buttonEdit/ButtonEdit";
+import "./block-footer.css";
 
 export default function BlockFooter() {
   return (

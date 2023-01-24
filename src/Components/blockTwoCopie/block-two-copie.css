@@ -16,8 +16,6 @@
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
 
-
-  
   .box-int-inline-cdv {
     display: flex;
     justify-content: right;
@@ -60,14 +58,12 @@
  
   .box-int-inline-two-cdv {
     width: 65%;
-    /* height: 00%; */
     clip-path: polygon(0 0, 100% 0, 100% 400%, 0 0%);
   }
   
   @media (max-width: 886px) {
     .box-inline-cdv {
       display: flex;
-      /* height: 1100px; */
       flex-direction: column-reverse;
     }
     .box-int-inline-cdv {
@@ -280,7 +276,6 @@
   @media (max-width: 886px) {
     .box-botton-cdv {
       width: auto;
-      /* background-color: red; */
     }
     .box-bottons-card{
         display: flex;

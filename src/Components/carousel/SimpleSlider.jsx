@@ -2,14 +2,11 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../../Components/carousel/simple-slider.css";
-import Marvelwp from "../../assets/mwpmarvel.webp";
 import LogoDisney from "../../assets/disneyedit.png";
-import ButtonEdit from "../buttonEdit/ButtonEdit";
-import imgps from "../../assets/picon.png";
 import imgfb from "../../assets/fblog.png";
 import imgtw from "../../assets/twicon.png";
 import imgig from "../../assets/igicon.png";
+import "../../Components/carousel/simple-slider.css";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -21,7 +18,6 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      // nextArrow: null,
       // speed:100,
     };
     return (
@@ -70,8 +66,6 @@ export default class SimpleSlider extends Component {
                 </div>
               </div>
             </div>
-
-            
           </div>
 
           {/* ------------------- */}
@@ -107,8 +101,6 @@ export default class SimpleSlider extends Component {
                 </div>
               </div>
             </div>
-
-            
           </div>
 
           {/* ------------------- */}
@@ -144,11 +136,8 @@ export default class SimpleSlider extends Component {
                 </div>
               </div>
             </div>
-
-            
           </div>
 
-          {/* ------------------- */}
         </Slider>
         <div className="box-slider-card">
           <div className="box-int-card-slider">
@@ -182,11 +171,10 @@ export default class SimpleSlider extends Component {
                 </div>
               </div>
             </div>
-            {/*  */}
-            
+  
           </div>
         </div>
       </div>
     );
-  }
-}
+  };
+};
