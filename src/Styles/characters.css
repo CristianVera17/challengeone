@@ -11,10 +11,32 @@ background-color: rebeccapurple;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: gold;
+    /* background-color: gold; */
  }
+
+ .box-spacing-text-two{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   /* margin-top: -15px; */
+   /* background-color: gold; */
+}
 
  .title-spacing{
     width: 78%;
-    background-color: green;
+    /* background-color: green; */
+ }
+
+ .feature-characters-text{
+    color: #202020;
+    font-size: 26px;
+    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+ }
+
+ .characters-list{
+   color: #202020;
+    font-size: 26px;
+    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
  }

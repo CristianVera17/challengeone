@@ -10,7 +10,8 @@
     width: 80%;
     height: auto;
     flex-wrap: wrap;
-    background-color: red;
+    margin-top: 60px;
+    /* background-color: red; */
   }
   
   .booox-cav{
@@ -18,7 +19,7 @@
     height: auto;
     background-color: #151515;
     margin: 5px;
-    background-color: red;
+    /* background-color: red; */
   }
   .boooox {
     background-color: #151515;

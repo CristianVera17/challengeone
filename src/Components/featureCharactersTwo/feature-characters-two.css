@@ -10,7 +10,8 @@
     width: 100%;
     height: 400px;
     flex-wrap: wrap;
-    background-color: red;
+    margin-top: -60px;
+    /* background-color: red; */
   }
   
   .booox {
@@ -18,7 +19,7 @@
     height: 371px;
     background-color: #151515;
     margin: 5px;
-    background-color: red;
+    /* background-color: red; */
   }
   .boooox {
     background-color: #151515;

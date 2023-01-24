@@ -48,7 +48,11 @@ export const CharactersSpotlight = () => {
               <div className=""></div>
                         <div className="">
                          <div>
-                                          <p >{per.name}</p>
+                                          <p className="font-bold" >{per.name}</p>
+
+                         </div>
+                         <div>
+                                          <p className="font-bold">{per.id}</p>
 
                          </div>
                         </div>

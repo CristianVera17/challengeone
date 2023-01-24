@@ -97,7 +97,7 @@ export default function BlockFooter() {
             </div>
           </div>
 
-          <div className="footer-box-two-tree">
+          {/* <div className="footer-box-two-tree">
             <div className="text-white follow-marvel">FOLLOW MARVEL</div>
             <div className="box-red-social">
               <div className="box-social-red">
@@ -138,7 +138,7 @@ export default function BlockFooter() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

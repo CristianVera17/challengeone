@@ -64,20 +64,29 @@ export default function Characters() {
           </div>
         </div>
       </div>
-<div className="box-spacing-text"><div className="title-spacing">
-<div className="sets__eyebrow">FEATURED CHARACTERS</div>
-</div></div>
+      <div className="box-spacing-text">
+        <div className="title-spacing">
+          <div className="sets__eyebrow">
+            <p className="feature-characters-text">FEATURED CHARACTERS</p></div>
+        </div>
+      </div>
       <FeatureCharactersAxios />
-      <div className="box-spacing-text"><div className="title-spacing">
-<div className="sets__eyebrow">FEATURED CHARACTERS</div>
-</div></div>
+      <div className="box-spacing-text-two">
+        <div className="title-spacing">
+          <div className="sets__eyebrow">
+            <p className="feature-characters-text">CHARACTER SPOTLIGHT</p></div>
+        </div>
+      </div>
       <CharactersSpotlight />
-      <FeatureCharactersTwo/>
-      <div className="box-spacing-text"><div className="title-spacing">
-<div className="sets__eyebrow">FEATURED CHARACTERS</div>
-</div></div>
-      <SearchCharacters/>
-    
+      <FeatureCharactersTwo />
+      <div className="box-spacing-text mt-16">
+        <div className="title-spacing">
+          {/* <div className="sets__eyebrow"> */}
+            <p className="characters-list">MARVEL CHARACTERS LIST</p></div>
+        {/* </div> */}
+      </div>
+      <SearchCharacters />
+      <BlockFooter/>
     </div>
   );
 }

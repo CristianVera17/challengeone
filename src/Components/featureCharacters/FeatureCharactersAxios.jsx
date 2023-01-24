@@ -19,7 +19,7 @@ export const FeatureCharactersAxios = () => {
 
   return (
     <>
-      <div className="boox">
+      <div className="boox-cd">
         <div></div>
         {personajes.map((per) => (
           <div className="booox" key={per.id}>
@@ -40,7 +40,7 @@ export const FeatureCharactersAxios = () => {
               <div className="line-box"></div>
               <div className="btn btn2">
                 <div>
-                  <p className="font-bold text-white">{per.name}</p>
+                  <p className="font-bold text-white p-4">{per.name}</p>
                 </div>
               </div>
               <div className="boooox">
