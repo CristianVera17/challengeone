@@ -20,7 +20,7 @@ export const CharactersSpotlight = () => {
 
   return (
     <>
-    <div>
+    {/* <div>
     <div className="box-charact">
         <div className="box-charact-int">
           <div className="mt-5">
@@ -28,7 +28,7 @@ export const CharactersSpotlight = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
       <div className="boox-two">
 
         {personajes.map((per) => (
@@ -43,14 +43,9 @@ export const CharactersSpotlight = () => {
                 {/* <p>{per.name}</p> */}
               </div>
               <div>
-                {/* <section className="">
-                  <figure>
-                    <img src={`${per.thumbnail.path}.${per.thumbnail.extension}`}alt=""/>
-                  </figure>
-                </section> */}
+          
               </div>
               <div className=""></div>
-              {/* <div>hs</div> */}
                         <div className="">
                          <div>
                                           <p >{per.name}</p>

@@ -1,31 +1,28 @@
-.img-card-ot {
+/* .img-card-ot {
   width: 10px;
   height: 10px;
 }
 
-.boox{
+.boox {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 400px;
   flex-wrap: wrap;
-  background-color: red;
 }
 
 .booox {
-  width: 190px;
+  width: 183px;
   height: 371px;
   background-color: #151515;
-  margin: 5px;
-  background-color: red;
+  margin: 20px;
 }
 .boooox {
-  background-color: #151515;
   display: flex;
   justify-content: right;
   width: 100%;
-  height: 25px;
+  height: 10px;
 }
 
 .box-int-cor-rd-cd {
@@ -68,6 +65,7 @@
   height: 140px;
   background: none;
   text-transform: uppercase;
+
   background-color: #151515;
   cursor: pointer;
   transition: color 0.4s linear;
@@ -112,4 +110,4 @@
   background-color: rgb(56, 97, 56);
   width: 100%;
   height: 50px;
-}
+} */

@@ -1,12 +1,13 @@
 import React from "react";
 import NavbarPrivate from "../Components/NavPrivate/NavbarPrivate";
-import { AxiosCharacters } from "../Components/axiosCharacters/AxiosCharacters";
 import LogoInsider from "../assets/insider.png";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
 import { useAuth } from "../Context/authContext";
 import "../Styles/characters.css";
 import { FeatureCharactersAxios } from "../Components/featureCharacters/FeatureCharactersAxios";
 import { CharactersSpotlight } from "../Components/charactersSpotg/CharactersSpotlight";
+import { FeatureCharactersTwo } from "../Components/featureCharactersTwo/FeatureCharactersTwo";
+import { SearchCharacters } from "../Components/searchCharacters/SearchCharacters";
 // import { FeatureCharactersAxios } from "../Components/featureCharacters/featureCharactersAxios";
 
 export default function Characters() {
@@ -20,14 +21,19 @@ export default function Characters() {
 
   return (
     <div className="layout-one">
+      {/* NAVBAR */}
       <header className="header-css">
         <nav id="navbar">
           <div className="navegacion">
-            <NavbarPrivate/>
+            <NavbarPrivate />
           </div>
         </nav>
       </header>
+      {/* ------} */}
+
+      {/* BLOCK BANNER */}
       <div className="content-box-cr">
+        <div className="spacing-navbar"></div>
         <div>
           <div className="bg-new-color-tree text-center h-10 flex justify-center items-center text-white  text-xs">
             <div className="max-lg:hidden font-bold">
@@ -40,7 +46,7 @@ export default function Characters() {
           </div>
         </div>
 
-        <div className="bg-black h-[25rem]">
+        <div className="characters-banner">
           <div className="box-int-wall">
             <div className="text-int-wall">
               <div className="ind">
@@ -58,32 +64,20 @@ export default function Characters() {
           </div>
         </div>
       </div>
-
-      <div className="box-charact">
-        <div className="box-charact-int">
-          <div className="mt-5">
-          <div className="sets__eyebrow"> <p className="feature-cd">FEATURED CHARACTERS</p></div>
-          </div>
-        </div>
-      </div>
-
-      <FeatureCharactersAxios/>
-      <CharactersSpotlight/>
-      <FeatureCharactersAxios/>
-      {/* <div className="box-charact">
-        <div className="box-charact-int">
-          <div className="mt-5">
-          <div className="sets__eyebrow"> <p className="feature-cd">MARVEL CHARACTERS LIST</p></div>
-          </div>
-        </div>
-      </div> */}
-
-
-      {/* <FeatureCharactersAxios/> */}
-      <AxiosCharacters />
-      Usuario/a {user.email}
-      <button onClick={handleLogout}>CERRAR SESION</button>
-      <BlockFooter />
+<div className="box-spacing-text"><div className="title-spacing">
+<div className="sets__eyebrow">FEATURED CHARACTERS</div>
+</div></div>
+      <FeatureCharactersAxios />
+      <div className="box-spacing-text"><div className="title-spacing">
+<div className="sets__eyebrow">FEATURED CHARACTERS</div>
+</div></div>
+      <CharactersSpotlight />
+      <FeatureCharactersTwo/>
+      <div className="box-spacing-text"><div className="title-spacing">
+<div className="sets__eyebrow">FEATURED CHARACTERS</div>
+</div></div>
+      <SearchCharacters/>
+    
     </div>
   );
-};
+}

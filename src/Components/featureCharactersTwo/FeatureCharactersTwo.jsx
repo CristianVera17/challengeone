@@ -1,9 +1,9 @@
 import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import "../../Components/featureCharacters/feature-characters.css";
+import "../../Components/featureCharactersTwo/feature-characters-two.css";
 
-export const FeatureCharactersAxios = () => {
+export const FeatureCharactersTwo = () => {
   const [personajes, setPersonajes] = useState([]);
   useEffect(() => {
     axios

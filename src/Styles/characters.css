@@ -1,5 +1,20 @@
-.content-box-cr{
-    height: 450px;
-    background-color: rgb(42, 42, 42);
-    margin-top: 89px;
-}
+.characters-banner{
+height: 403px;
+ }
+
+ .spacing-navbar{
+height: 88px;
+background-color: rebeccapurple;
+ }
+
+ .box-spacing-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+ }
+
+ .title-spacing{
+    width: 78%;
+    background-color: green;
+ }

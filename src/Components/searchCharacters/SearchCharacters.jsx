@@ -1,28 +1,28 @@
 import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import "../../Components/featureCharacters/feature-characters.css";
+import "../../Components/searchCharacters/search-characters.css";
 
-export const FeatureCharactersAxios = () => {
+export const SearchCharacters = () => {
   const [personajes, setPersonajes] = useState([]);
   useEffect(() => {
     axios
       .get(
-        "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
+        "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
       )
       .then((res) => {
-        setPersonajes(res.data.data.results.slice(0, 6));
+        setPersonajes(res.data.data.results.slice(0,18));
         // console.log(res.data)
       })
       .catch((error) => console.log(error));
   }, []);
 
   return (
-    <>
-      <div className="boox">
+    <div className="flex justify-center">
+      <div className="boox-cav">
         <div></div>
         {personajes.map((per) => (
-          <div className="booox" key={per.id}>
+          <div className="booox-cav" key={per.id}>
             <div>
               {" "}
              
@@ -50,6 +50,6 @@ export const FeatureCharactersAxios = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };

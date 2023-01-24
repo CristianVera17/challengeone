@@ -5,19 +5,16 @@
 
 .boox-two{
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
-  /* display: flex; */
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  /* border: 2px solid black; */
+  background-color: rgb(218, 18, 18);
   width: 100%;
   height: 300px;
   flex-wrap: wrap;
 }
 
 .boox-tree-cd{
-  width: 310px;
+  width: 282px;
   margin: 10px;
   height: 250px;
   background-color: rgb(255, 255, 255);
