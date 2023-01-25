@@ -67,7 +67,9 @@ export default function BlockFooter() {
               <p className="text-white">REDEEM DIGITAL COMICS</p>
             </div>
           </div>
-
+          <div className="footer-line">
+            <div className="line-footer"></div>
+          </div>
           <div className="footer-box-one-two-tree">
             <div className="box-insider-footer">
               <div>
@@ -79,7 +81,7 @@ export default function BlockFooter() {
               </div>
               <div className="ml-5 marvel-insider">
                 <p className="text-white font-bold">MARVEL INSIDER</p>
-                <p className="text-white">
+                <p className="text-white text-insider">
                   Get Rewarded for Being a Marvel Fan
                 </p>
               </div>
@@ -97,9 +99,18 @@ export default function BlockFooter() {
             </div>
           </div>
 
-          {/* <div className="footer-box-two-tree">
-            <div className="text-white follow-marvel">FOLLOW MARVEL</div>
+          <div className="footer-line">
+            <div className="line-footer"></div>
+          </div>
+          <div className="footer-box-two-tree">
+            {/* <div className="follow-marvel-div"> */}
+              {/* <div>hshshsh</div> */}
+            {/* </div>} */}
+            {/* <div className="text-white follow-marvel">FOLLOW MARVEL</div> */}
             <div className="box-red-social">
+              <div className="follow-div">
+                <div className="font-bold text-white">FOLLOW MARVEL</div>
+              </div>
               <div className="box-social-red">
                 <div className="box-rs-fr">
                   <div className="rs-box">
@@ -138,12 +149,16 @@ export default function BlockFooter() {
                 </div>
               </div>
             </div>
-          </div> */}
+            
+          </div>
         </div>
-      </div>
-
-      <div className="box-cookie">
+       
+        <div className="box-cookie">
+        {/* <div>gika</div> */}
         <div className="box-int-cookie">
+          <div className="footer-line">
+            <div className="line-footer"></div>
+          </div>
           <div>
             <p className="text-footer ">Terms of Use</p>
           </div>
@@ -158,6 +173,24 @@ export default function BlockFooter() {
           <div className="text-footer ">©2023 MARVEL</div>
         </div>
       </div>
+      </div>
+
+      {/* <div className="box-cookie">
+        <div className="box-int-cookie">
+          <div>
+            <p className="text-footer ">Terms of Use</p>
+          </div>
+          <div>
+            <p className="text-footer ">Privacy Policy</p>
+          </div>
+          <div className="text-footer ">Your US State Privacy Rights</div>
+          <div className="text-footer ">Children's Online Privacy Policy</div>
+          <div className="text-footer ">License Agreement</div>
+          <div className="text-footer ">Interest-Based Ads</div>
+          <div className="text-footer ">Marvel Insider Terms</div>
+          <div className="text-footer ">©2023 MARVEL</div>
+        </div>
+      </div> */}
     </div>
   );
 }
