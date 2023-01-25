@@ -55,6 +55,7 @@ export const LoadMoreCardT = () => {
         <div className="box-im-card">
           <div className="aside-box">
             <div>
+            <div class="rail-featured__border-top"><span class="icon--svg icon--border" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#border-line_svg__mask-2)"></path></svg></span></div>
               <div>
                 <p className="the-hype-box">THE HYPE BOX</p>
               </div>
@@ -91,7 +92,7 @@ export const LoadMoreCardT = () => {
 
             <div></div>
           </div>
-
+          <div class="rail-featured__border-bottom"><span class="icon--svg icon--border" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#border-line_svg__mask-2)"></path></svg></span></div>
           <div></div>
         </div>
       </div>

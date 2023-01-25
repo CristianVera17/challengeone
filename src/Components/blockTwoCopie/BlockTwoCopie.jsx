@@ -4,12 +4,13 @@ import { useState } from "react";
 import { useEffect } from "react";
 import ImgMv from "../../assets/boxtwocopie.png";
 import "./block-two-copie.css";
+// import ButtonEditTwo from "../buttonEditTwo/ButtonEditTwo";
 // import Mulogo from "../../assets/mulogo.png";
 // import ButtonEdit from "../buttonEdit/ButtonEdit";
 
 export default function BlockTwoCopie(Children) {
   const [items, setItems] = useState([]);
-  const [visible, setVisible] = useState(8);
+  const [visible, setVisible] = useState();
 
   useEffect(() => {
     axios
@@ -99,6 +100,8 @@ export default function BlockTwoCopie(Children) {
           ))}
         </div>
       </div>
+
+      {/* <ButtonEditTwo/> */}
       {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );

@@ -9,7 +9,7 @@ import "./block-two.css";
 
 export default function BlockTwo() {
   const [items, setItems] = useState([]);
-  const [visible, setVisible] = useState(8);
+  const [visible, setVisible] = useState();
 
   useEffect(() => {
     axios

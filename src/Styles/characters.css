@@ -1,10 +1,16 @@
+/* .layout-one{
+   height: 100hv;
+
+   background-color: red;
+} */
+
 .characters-banner{
 height: 403px;
  }
 
  .spacing-navbar{
 height: 88px;
-background-color: rebeccapurple;
+background-color: rgb(2, 2, 2);
  }
 
  .box-spacing-text{
@@ -40,3 +46,38 @@ background-color: rebeccapurple;
     font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
  }
+
+ .marvel-cd-one{
+   color: white;
+   font-size: 46px;
+   font-weight: bold;
+ }
+
+ .marvel-cd-two{
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+  
+ }
+
+ .flex-section{
+   height: auto;
+   /* background-color: red; */
+ }
+
+ @media (max-width: 1024px) {
+ /* .title-spacing} */
+ .spacing-navbar{
+  height: 56px;
+ }
+
+ .marvel-cd-one{
+   font-size: 26px;
+ }
+
+ .feature-characters-text{
+   font-size: 20px;
+   /* background-color: yellow; */
+ }
+}

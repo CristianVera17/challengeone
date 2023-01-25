@@ -56,6 +56,7 @@
 
 .box-im-card {
   width: 20%;
+  margin-top: 20px;
 }
 
 .load-img-css {
@@ -222,15 +223,16 @@
 
 
 .sets__eyebrow-cd{
-  font: 500;
+  font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+
   line-height: 1;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: rgb(8, 8, 8);
   margin: 36px 0;
   position: relative;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 26px;
 }
 
 .sets__eyebrow-cd:after {
@@ -267,5 +269,51 @@
   -webkit-transform: rotate(-45deg) skewX(45deg);
   transform: rotate(-45deg) skewX(45deg);
   width: 30px;
+}
+
+.rail-featured__border-top {
+  position: relative;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 73px;
+  width: 100%;
+}
+
+.rail-featured__border-top span{
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  transform: skew(0deg);
+}
+
+.rail-featured__border-bottom span{
+  width: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: right;
+  transform: skew(0deg);
+}
+
+.rail-featured__border-bottom .icon--svg svg {
+
+  height: 55px;
+  transform: rotate(180deg);
+}
+
+.rail-featured__border-top .icon--svg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.icon--svg.icon--border {
+  fill: none;
+  stroke: #c6a972;
+  stroke-width: 3px;
+}
+.icon--svg {
+  fill: #151515;
 }
 

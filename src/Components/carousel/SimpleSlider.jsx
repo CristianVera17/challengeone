@@ -79,7 +79,7 @@ export default class SimpleSlider extends Component {
                     </div>
                     <div className="sets__eyebrow">Marvel Comics</div>
 
-                    <div className="text-new-on">THE AVENGERS RETURN</div>
+                    <div className="text-new-on">THE IRON MAN</div>
                     <div className="mt-2 text-white">
                       This May, superstar writer Jed MacKay and Marvel
                       Stormbreaker artist C.F. Villa will take the reins of

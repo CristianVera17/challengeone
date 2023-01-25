@@ -18,7 +18,29 @@ export const SearchCharacters = () => {
   }, []);
 
   return (
+    <>
+     <div className="boox-title-chr">
+      <div className="boox-title-chrt">
+      <div className="box-spacing-text-tw">
+            <div className="title-spacing-two">
+                <p className="feature-characters-text">MARVEL CHARACTERS LIST</p>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div className="boox-title-chr">
+      <div className="boox-title-chrt">
+      <div className="box-spacing-text-tw">
+            <div className="title-spacing-two">
+              <input type="search" placeholder="SEARCH" />
+                <p className="feature-characters-text">MARVEL CHARACTERS LIST</p>
+              </div>
+          </div>
+      </div>
+    </div>
     <div className="flex justify-center">
+      
       <div className="boox-cav">
         <div></div>
         {personajes.map((per) => (
@@ -51,5 +73,6 @@ export const SearchCharacters = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };

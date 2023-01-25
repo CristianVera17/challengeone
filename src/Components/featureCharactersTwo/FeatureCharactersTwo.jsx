@@ -19,10 +19,12 @@ export const FeatureCharactersTwo = () => {
 
   return (
     <>
+    {/* <div>jdaj</div> */}
       <div className="boox">
-        <div></div>
+        
         {personajes.map((per) => (
           <div className="booox" key={per.id}>
+            
             <div>
               {" "}
              

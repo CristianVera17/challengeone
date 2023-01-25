@@ -19,6 +19,17 @@ export const FeatureCharactersAxios = () => {
 
   return (
     <>
+    <div className="boox-title-chr">
+      <div className="boox-title-chrt">
+      <div className="box-spacing-text-tw">
+            <div className="title-spacing">
+              <div className="sets__eyebrow">
+                <p className="feature-characters-text">FEATURED CHARACTERS</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
       <div className="boox-cd">
         <div></div>
         {personajes.map((per) => (

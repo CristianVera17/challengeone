@@ -20,15 +20,17 @@ export const CharactersSpotlight = () => {
 
   return (
     <>
-    {/* <div>
-    <div className="box-charact">
-        <div className="box-charact-int">
-          <div className="mt-5">
-          <div className="sets__eyebrow"> <p className="feature-cd">CHARACTER SPOTLIGHT</p></div>
+     <div className="boox-title-chr">
+      <div className="boox-title-chrt">
+      <div className="box-spacing-text-tw">
+            <div className="title-spacing">
+              <div className="sets__eyebrow">
+                <p className="feature-characters-text">CHARACTER SPOTLIGHT</p>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
-    </div> */}
+    </div>
       <div className="boox-two">
 
         {personajes.map((per) => (
@@ -48,7 +50,7 @@ export const CharactersSpotlight = () => {
               <div className=""></div>
                         <div className="">
                          <div>
-                                          <p className="font-bold" >{per.name}</p>
+                                          <p className="name-card" >{per.name}</p>
 
                          </div>
                          <div>

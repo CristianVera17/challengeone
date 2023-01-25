@@ -12,7 +12,7 @@ const NavbarOne = () => {
   const [open, setOpen] = useState(false);
   return (
     // CONTENEDOR PRINCIPAL ENVUELVE TODO EL MENU
-    <div className="bg-new-color left-0 right-0 shadow-md">
+    <div className="bg-new-color left-0 right-0 shadow-md box-nav-bar">
       {/* INICIO DE CABECERA PRINCIPAL*/}
       {/* START OF MAIN HEADING */}
       <div className="top-0 left-0 right-0 shadow-md flex justify-around w-full">
@@ -41,9 +41,9 @@ const NavbarOne = () => {
 
         {/* DIV PARA INICIAR SESION*/}
         {/* DIV TO START SESSION */}
-        <div className="max-sm:hidden h-14 w-40 flex items-center justify-around min-sm:hidden text-white font-bold text-xs box-sign-in ">
+        <div className="max-sm:hidden h-14 w-40 flex items-center justify-around min-sm:hidden text-white box-sign-in ">
           <div>
-            <img className="w-7 h-5 b-1 pl-2" src={InLogo} alt="" />
+            <img className="img-nav-bar" src={InLogo} alt="" />
           </div>
           <div>SIGN IN</div>
           <div>|</div>
@@ -52,8 +52,8 @@ const NavbarOne = () => {
         {/*------------------------------------------------/}
 
         {/*LOGO DE MARVEL CABECERA*/}
-        <div>
-          <img className="w-30 h-14 b-1" src={LogoMarvel} alt="" />
+        <div className="box-logo-cabecera">
+          <img className="logo-nav-bar" src={LogoMarvel} alt="" />
         </div>
         {/* --------------------------------------------- */}
 
@@ -66,8 +66,8 @@ const NavbarOne = () => {
           {/*-----------------------------------------------------*/}
 
           <div className="flex flex-col text-center ml-1">
-            <div className="text-xs text-white font-bold">MARVEL UNLIMITED</div>
-            <div className="text-xs text-white font-bold">SUBSCRIBE</div>
+            <div className=" text-white ">MARVEL UNLIMITED</div>
+            <div className="text-white ">SUBSCRIBE</div>
           </div>
 
           {/* BUSCADOR SIN FUNCIONALIDAD */}
@@ -111,8 +111,8 @@ const NavbarOne = () => {
       </div>
 
       {/*LINKS DE MENU*/}
-      <div className="max-lg:hidden text-center flex justify-center items-center border-t border-zinc-700 py-2">
-        <div className="flex w-1/2 justify-around font-bold text-white text-xs">
+      <div className="max-lg:hidden text-center flex justify-center items-center border-t border-zinc-700 py-3">
+        <div className="flex w-1/2 justify-around text-white ">
           {" "}
           <NavLink to="/">NEWS</NavLink>
           <p>COMICS</p>
