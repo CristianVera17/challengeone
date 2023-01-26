@@ -477,3 +477,12 @@ button:hover::before {
   height: 100%;
   flex-direction: column;
 }
+
+.button-login{
+  /* width: 50px; */
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: red;
+}

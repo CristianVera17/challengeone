@@ -55,7 +55,7 @@ export default function Register() {
           autoComplete="current-password"
           onChange={handleChange}
         />
-        <button className="mt-7">Register</button>
+        <button className="button-login">Register</button>
       </form>
       </div>
     </div>

@@ -82,7 +82,6 @@
   margin: 10px;
 }
 
-
 .slick-next {
   right: 0;
 }
@@ -129,7 +128,7 @@
   border-right: 25px solid #000000;
 }
 
-.text-new-one-two{
+.text-new-one-two {
   font-size: 46px;
   font-weight: bold;
   color: white;
@@ -137,105 +136,87 @@
 }
 
 @media (max-width: 1253px) {
-.text-new-one-two{
-  font-size: 20px;
-}
+  .text-new-one-two {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1253px) {
-  .text-new-one-two{
+  .text-new-one-two {
     font-size: 30px;
   }
-  }
-
+}
 
 @media (max-width: 1117px) {
- 
   .box-sli-one {
     margin-top: 49px;
   }
-  .box-slider-card{
+  .box-slider-card {
     display: flex;
     align-items: center;
-    height:300px;
-    /* background-color: red; */
+    height: 300px;
   }
-  .box-sli-cd{
+  .box-sli-cd {
     display: flex;
-    /* flex-direction: column; */
-    /* background-color: royalblue; */
     width: 100%;
     height: auto;
-    /* display: none; */
   }
 
-  .box-sli-fl{
-    /* margin-top: 0; */
+  .box-sli-fl {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* background-color: yellow; */
+  }
+
+  .box-int-sli {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-int-card-slider {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-new-one-two {
+    width: 250px;
+    font-size: 21px;
+  }
+
+  .text-new-one-tree {
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .box-sli-cd-two {
+    display: none;
+  }
 }
 
-.box-int-sli{
-  width: 100%;
-height: auto;
-/* background-color: green; */
-}
-
-.box-int-card-slider{
-  display: flex;
-  flex-direction: column;
-}
-
-.text-new-one-two{
-  width: 250px;
-  /* background-color: gold; */
-  font-size: 21px;
-}
-
-.text-new-one-tree{
-  width: 250px;
-  /* background-color: gold; */
-  font-size: 16px;
-}
-
-.box-sli-cd-two{
-  display: none;
-  /* margin-top: 0px; */
-}
-
-
-}
-
-.display-none{
+.display-none {
   display: flex;
   justify-content: space-around;
 
   margin-top: 20px;
-  
+
   width: 100%;
-  /* background-color: #e62429; */
 }
 
-.display-int{
+.display-int {
   display: flex;
   justify-content: space-between;
-  /* flex-direction: ; */
   width: 95%;
   align-items: center;
-  /* background-color: aqua; */
 }
 
-.follow-marvel-none{
+.follow-marvel-none {
   font-weight: bold;
   color: gray;
 }
 
 @media (min-width: 1117px) {
- .display-none{
-  display: none;
- }
-
+  .display-none {
+    display: none;
+  }
 }

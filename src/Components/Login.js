@@ -58,7 +58,7 @@ export default function Login() {
             autoComplete="current-password"
             onChange={handleChange}
           />
-          <button className="mt-7">Login</button>
+          <button className="button-login">Login</button>
         </form>
       </div>
     </div>

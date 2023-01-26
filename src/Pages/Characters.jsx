@@ -68,6 +68,10 @@ export default function Characters() {
           <CharactersSpotlight />
           <FeatureCharactersTwo />
           <SearchCharacters />
+          <div className="flex justify-center">
+          <button className="button-login" onClick={handleLogout}>Cerrar Sesion</button>
+          </div>
+          {/* <button className="button-login" onClick={handleLogout}>logout cerrar sesion</button> */}
           <BlockFooter />
         </div>
       </div>

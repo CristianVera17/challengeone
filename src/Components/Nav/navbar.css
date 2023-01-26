@@ -1,13 +1,12 @@
 .box-nav-bar {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 .box-sign-in {
-  /* background-color: red; */
   height: 50px;
   width: 160px;
-  border-left: 1px solid  #393939;
+  border-left: 1px solid #393939;
   border-right: 1px solid #393939;
 }
 
@@ -19,10 +18,9 @@
 }
 
 .box-marvel-unlimited {
-  /* background-color: royalblue; */
   height: 50px;
   border-left: 1px solid #393939;
-  border-right: 1px solid  #393939;
+  border-right: 1px solid #393939;
 }
 
 .img-nav-bar {
@@ -34,5 +32,5 @@
 }
 
 .box-search-nav {
-  border-left: 1px solid  #393939;
+  border-left: 1px solid #393939;
 }
