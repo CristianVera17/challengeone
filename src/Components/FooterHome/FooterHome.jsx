@@ -42,14 +42,13 @@ export default function FooterHome() {
             <button className="mt-5">
               <span>Button</span>
             </button>
-          
           </div>
           <div className="box-term-cond">
             <p className="text-white text-sm">Terms and Conditions Apply.</p>
           </div>
         </div>
       </div>
-   
+
       <div className="box-foo-one">
         <div className="box-foo">
           <div className="box-foot-one">
@@ -76,13 +75,12 @@ export default function FooterHome() {
             </div>
           </div>
         </div>
-       
 
         <div className="box-foo-two">
           <div className="box-foo-text">
             <div>
               {" "}
-              <img className="img-logo-rs ml-6 " src={logou} alt=""/>
+              <img className="img-logo-rs ml-6 " src={logou} alt="" />
             </div>
             <div className="ml-6">
               <div className="font-bold text-white">MARVEL INSIDER</div>
@@ -114,11 +112,9 @@ export default function FooterHome() {
           </div>
         </div>
 
-      
         <div className="rs">
           <div className="text-1xl text-white font-bold">FOLLOW MARVEL</div>
           <div className="box-rs">
-
             <div className="rs-box">
               <img className="img-icon-fb" src={imgfb} alt="" />
             </div>
@@ -133,7 +129,7 @@ export default function FooterHome() {
               <img className="img-icon-tr" src={imgtr} alt="" />
             </div>
             <div className="rs-box">
-              <img className="img-icon-yt"  src={imgyt} alt="" />
+              <img className="img-icon-yt" src={imgyt} alt="" />
             </div>
             <div className="rs-box">
               <img className="img-icon-st" src={imgst} alt="" />
