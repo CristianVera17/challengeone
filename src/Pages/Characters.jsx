@@ -8,7 +8,7 @@ import { CharactersSpotlight } from "../Components/charactersSpotg/CharactersSpo
 import { FeatureCharactersTwo } from "../Components/featureCharactersTwo/FeatureCharactersTwo";
 import { SearchCharacters } from "../Components/searchCharacters/SearchCharacters";
 import NavbarOne from "../Components/Nav/NavbarOne";
-
+// 
 export default function Characters() {
   const { user, logout, loading } = useAuth();
 

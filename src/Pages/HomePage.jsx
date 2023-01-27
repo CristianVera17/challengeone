@@ -7,7 +7,7 @@ import BlockTwoCopie from "../Components/blockTwoCopie/BlockTwoCopie";
 import BlockFooter from "../Components/blockFooter/BlockFooter";
 import { LoadMoreCardT } from "../Components/loadMoreCard/LoadMoreCardT";
 import "../Styles/home-page.css"
-
+// 
 export default function HomePage() {
 // JAVASCRIPT PARA QUE EL MENU CUANDO HACEMOS SCROLL HACIA ABAJO DESAPARESCA Y HACIA ARRIBA APARECE
 let ubicacionPrincipal  = window.pageYOffset;
