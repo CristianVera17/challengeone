@@ -5,11 +5,13 @@ import "./load-more-card-t.css";
 
 export const LoadMoreCardT = () => {
   const [items, setItems] = useState([]);
-  const [visible, setVisible] = useState(8);
+
+  const [visible, setVisible] = useState(3);
+
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 3);
   };
-
+// 
   useEffect(() => {
     axios
       .get(
