@@ -15,7 +15,7 @@ export default function Characters() {
   const handleLogout = async () => {
     await logout();
   };
-
+// 
   if (loading) return <h1>Loading</h1>;
 
   return (
