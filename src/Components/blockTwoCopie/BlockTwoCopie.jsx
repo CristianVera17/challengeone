@@ -4,9 +4,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import ImgMv from "../../assets/boxtwocopie.png";
 import "./block-two-copie.css";
-// import ButtonEditTwo from "../buttonEditTwo/ButtonEditTwo";
-// import Mulogo from "../../assets/mulogo.png";
-// import ButtonEdit from "../buttonEdit/ButtonEdit";
 
 export default function BlockTwoCopie(Children) {
   const [items, setItems] = useState([]);
@@ -19,8 +16,7 @@ export default function BlockTwoCopie(Children) {
       )
       .then((res) => {
         setItems(res.data.data.results);
-      })
-      // .catch((error) => console.log(error));
+      });
   }, []);
 
   return (
@@ -36,32 +32,32 @@ export default function BlockTwoCopie(Children) {
 
             <div className="text-new-on-cdv">NEW COMICS THIS WEEK</div>
             <div className="mt-2 text-white">
-            Check out the newest Marvel comics coming out this week!
+              Check out the newest Marvel comics coming out this week!
             </div>
-<div className="flex box-bottons-card">
-            <button className="mt-5">
-              <div className="box-botton-cdd">
-                <div className="box-int-bot-cdd">
-                  <div className="box-int-cor-two-cdd"></div>
+            <div className="flex box-bottons-card">
+              <button className="mt-5">
+                <div className="box-botton-cdd">
+                  <div className="box-int-bot-cdd">
+                    <div className="box-int-cor-two-cdd"></div>
+                  </div>
+                  SHOP DIGITAL COMICS
+                  <div className="box-int-bot-cdd">
+                    <div className="box-int-cor-cdd"></div>
+                  </div>
                 </div>
-                SHOP DIGITAL COMICS
-                <div className="box-int-bot-cdd">
-                  <div className="box-int-cor-cdd"></div>
+              </button>
+              <button className="mt-5">
+                <div className="box-botton-cdd">
+                  <div className="box-int-bot-cdd">
+                    <div className="box-int-cor-two-cdd"></div>
+                  </div>
+                  PRINT SUBSCRIPTIONS
+                  <div className="box-int-bot-cdd">
+                    <div className="box-int-cor-cdd"></div>
+                  </div>
                 </div>
-              </div>
-            </button>
-            <button className="mt-5">
-              <div className="box-botton-cdd">
-                <div className="box-int-bot-cdd">
-                  <div className="box-int-cor-two-cdd"></div>
-                </div>
-                PRINT SUBSCRIPTIONS
-                <div className="box-int-bot-cdd">
-                  <div className="box-int-cor-cdd"></div>
-                </div>
-              </div>
-            </button>
-</div>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -100,9 +96,6 @@ export default function BlockTwoCopie(Children) {
           ))}
         </div>
       </div>
-
-      {/* <ButtonEditTwo/> */}
-      {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );
-};
+}

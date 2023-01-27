@@ -1,84 +1,69 @@
-/* .layout-one{
-   height: 100hv;
-
-   background-color: red;
-} */
-
-.characters-banner{
-height: 403px;
- }
-
- .spacing-navbar{
-height: 88px;
-background-color: rgb(2, 2, 2);
- }
-
- .box-spacing-text{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* background-color: gold; */
- }
-
- .box-spacing-text-two{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   /* margin-top: -15px; */
-   /* background-color: gold; */
+.characters-banner {
+  height: 403px;
 }
 
- .title-spacing{
-    width: 78%;
-    /* background-color: green; */
- }
-
- .feature-characters-text{
-    color: #202020;
-    font-size: 26px;
-    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
- }
-
- .characters-list{
-   color: #202020;
-    font-size: 26px;
-    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
- }
-
- .marvel-cd-one{
-   color: white;
-   font-size: 46px;
-   font-weight: bold;
- }
-
- .marvel-cd-two{
-   padding: 10px;
-   text-align: center;
-   color: white;
-   font-size: 16px;
-  
- }
-
- .flex-section{
-   height: auto;
-   /* background-color: red; */
- }
-
- @media (max-width: 1024px) {
- /* .title-spacing} */
- .spacing-navbar{
-  height: 56px;
- }
-
- .marvel-cd-one{
-   font-size: 26px;
- }
-
- .feature-characters-text{
-   font-size: 20px;
-   /* background-color: yellow; */
- }
+.spacing-navbar {
+  height: 88px;
+  background-color: rgb(2, 2, 2);
 }
 
+.box-spacing-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-spacing-text-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-spacing {
+  width: 78%;
+}
+
+.feature-characters-text {
+  color: #202020;
+  font-size: 26px;
+  font: 800 26px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.characters-list {
+  color: #202020;
+  font-size: 26px;
+  font: 800 26px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.marvel-cd-one {
+  color: white;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.marvel-cd-two {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.flex-section {
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .spacing-navbar {
+    height: 56px;
+  }
+
+  .marvel-cd-one {
+    font-size: 26px;
+  }
+
+  .feature-characters-text {
+    font-size: 20px;
+  }
+}

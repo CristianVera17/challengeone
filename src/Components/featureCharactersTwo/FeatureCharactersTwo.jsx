@@ -12,22 +12,17 @@ export const FeatureCharactersTwo = () => {
       )
       .then((res) => {
         setPersonajes(res.data.data.results.slice(0, 6));
-        // console.log(res.data)
       })
       .catch((error) => console.log(error));
   }, []);
 
   return (
     <>
-    {/* <div>jdaj</div> */}
       <div className="boox">
-        
         {personajes.map((per) => (
           <div className="booox" key={per.id}>
-            
             <div>
               {" "}
-             
               <div>{/* <p>{per.name}</p> */}</div>
               <div>
                 <section className="container">

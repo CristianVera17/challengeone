@@ -70,8 +70,8 @@ export default class SimpleSlider extends Component {
           </div>
           {/* ------------------- */}
 
-             {/* CAROUSEL CARD */}
-             <div className="box-sli-two">
+          {/* CAROUSEL CARD */}
+          <div className="box-sli-two">
             <div className="box-int-carousel">
               <div>
                 <div className="box-int-inline-cd">
@@ -106,8 +106,8 @@ export default class SimpleSlider extends Component {
           </div>
           {/* ------------------- */}
 
-             {/* CAROUSEL CARD */}
-             <div className="box-sli-two">
+          {/* CAROUSEL CARD */}
+          <div className="box-sli-two">
             <div className="box-int-carousel">
               <div>
                 <div className="box-int-inline-cd">
@@ -142,8 +142,8 @@ export default class SimpleSlider extends Component {
           </div>
           {/* ------------------- */}
 
-             {/* CAROUSEL CARD */}
-             <div className="box-sli-two">
+          {/* CAROUSEL CARD */}
+          <div className="box-sli-two">
             <div className="box-int-carousel">
               <div>
                 <div className="box-int-inline-cd">
@@ -177,7 +177,6 @@ export default class SimpleSlider extends Component {
             </div>
           </div>
           {/* ------------------- */}
-          
         </Slider>
         <div className="box-slider-card">
           <div className="box-int-card-slider">
@@ -211,37 +210,32 @@ export default class SimpleSlider extends Component {
                 </div>
               </div>
             </div>
-           
-  
           </div>
         </div>
 
         <div className="display-none">
           <div className="display-int">
-          <div className="follow-marvel-none">FOLLOW MARVEL</div>
-          <div className=" flex">
-            
-                <div>
-                  <div className="rs-box-cd">
-                    <img className="img-icon-fb" src={imgfb} alt="" />
-                  </div>
+            <div className="follow-marvel-none">FOLLOW MARVEL</div>
+            <div className=" flex">
+              <div>
+                <div className="rs-box-cd">
+                  <img className="img-icon-fb" src={imgfb} alt="" />
                 </div>
-                <div>
-                  <div className="rs-box-cd">
-                    <img className="img-icon-tw" src={imgtw} alt="" />
-                  </div>
+              </div>
+              <div>
+                <div className="rs-box-cd">
+                  <img className="img-icon-tw" src={imgtw} alt="" />
                 </div>
-                <div>
-                  <div className="rs-box-cd">
-                    <img className="img-icon-ig" src={imgig} alt="" />
-                  </div>
+              </div>
+              <div>
+                <div className="rs-box-cd">
+                  <img className="img-icon-ig" src={imgig} alt="" />
                 </div>
-            
-            
+              </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     );
-  };
-};
+  }
+}
