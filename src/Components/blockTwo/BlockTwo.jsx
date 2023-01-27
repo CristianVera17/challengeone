@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Mlimg from "../../assets/mvblock.png";
 import Mulogo from "../../assets/mulogo.png";
 import "./block-two.css";
-
+// 
 
 export default function BlockTwo() {
   const [items, setItems] = useState([]);
