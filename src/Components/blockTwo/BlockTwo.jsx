@@ -14,13 +14,14 @@ export default function BlockTwo() {
   useEffect(() => {
     axios
       .get(
-        "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
+        "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
       )
       .then((res) => {
         setItems(res.data.data.results);
       })
       // .catch((error) => console.log(error));
   }, []);
+
 
   return (
     <div className="img-od">
@@ -62,7 +63,7 @@ export default function BlockTwo() {
       <div className="box-five-tree">
         <div className="box-int-tree">
           {items.slice(0, visible).map((item) => (
-            <div className="box-scroll-card">
+            <div key={item} className="box-scroll-card">
               <div className="box-load-img">
                 <div className="box-img-load">
                   <div className="img-load-one-two">
@@ -79,7 +80,9 @@ export default function BlockTwo() {
                   <div className="box-title-card-scroll">
                     {" "}
                     <p className="text-hover-card">{item.name}</p>
+                    <p className="text-hover-card-two">{item.title}</p>
                     <p className="text-hover-card-two">{item.id}</p>
+
                   </div>
                 </div>
               </div>

@@ -5,8 +5,10 @@ import "./load-more-card-t.css";
 
 export const LoadMoreCardT = () => {
   const [items, setItems] = useState([]);
+    const [itemsTwo, setItemsTwo] = useState([]);
 
-  const [visible, setVisible] = useState(3);
+
+  const [visible, setVisible] = useState(8);
 
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 3);
@@ -15,10 +17,21 @@ export const LoadMoreCardT = () => {
   useEffect(() => {
     axios
       .get(
-        "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
+        "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
       )
       .then((res) => {
         setItems(res.data.data.results);
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
+   useEffect(() => {
+    axios
+      .get(
+        "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
+      )
+      .then((res) => {
+        setItemsTwo(res.data.data.results);
       })
       .catch((error) => console.log(error));
   }, []);
@@ -44,8 +57,11 @@ export const LoadMoreCardT = () => {
                   </div>
                   <div className="load-text-box">
                     {" "}
-                    <p className="font-bold">{item.name}</p>
+                    <p className="font-bold">{item.title}</p>
                     <p>{item.id}</p>
+                                        {/* <p>{item.copyright}</p> */}
+
+                    
                   </div>
                 </div>
               </div>
@@ -70,7 +86,7 @@ export const LoadMoreCardT = () => {
               </div>
             </div>
             <div className="content-load">
-              {items.slice(0, visible).map((item) => (
+              {itemsTwo.slice(0,5).map((item) => (
                 <div className="box-load-card-two">
                   <div className="card-load-two">
                     <div className="int-box-card-load-cd">
@@ -83,7 +99,7 @@ export const LoadMoreCardT = () => {
                       </div>
 
                       <div className="box-title-hype">
-                        <p>{item.name}</p>
+                        <p>{item.title}</p>
                         <p>{item.id}</p>
                       </div>
                     </div>

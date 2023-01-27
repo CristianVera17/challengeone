@@ -70,125 +70,19 @@ export default class SimpleSlider extends Component {
           </div>
           {/* ------------------- */}
 
-          {/* CAROUSEL CARD */}
-          <div className="box-sli-two">
-            <div className="box-int-carousel">
-              <div>
-                <div className="box-int-inline-cd">
-                  <div className="inline-int">
-                    <div className="logo-mu">
-                      {/* <img className="mu-logo" src={Mulogo} alt="imageunlimited" /> */}
-                    </div>
-                    <div className="sets__eyebrow">Marvel Comics</div>
 
-                    <div className="text-new-one-two">THE AVENGERS RETURN</div>
-                    <div className="mt-2 text-white text-new-one-tree">
-                      This May, superstar writer Jed MacKay and Marvel
-                      Stormbreaker artist C.F. Villa will take the reins of
-                      Earth’s Mightiest Heroes in a new run of AVENGERS
-                    </div>
-
-                    <button className="mt-5">
-                      <div className="box-botton-ca">
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-two-ca"></div>
-                        </div>
-                        LEARN MORE
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-ca"></div>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* ------------------- */}
-
-          {/* CAROUSEL CARD */}
-          <div className="box-sli-two">
-            <div className="box-int-carousel">
-              <div>
-                <div className="box-int-inline-cd">
-                  <div className="inline-int">
-                    <div className="logo-mu">
-                      {/* <img className="mu-logo" src={Mulogo} alt="imageunlimited" /> */}
-                    </div>
-                    <div className="sets__eyebrow">Marvel Comics</div>
-
-                    <div className="text-new-one-two">THE AVENGERS RETURN</div>
-                    <div className="mt-2 text-white text-new-one-tree">
-                      This May, superstar writer Jed MacKay and Marvel
-                      Stormbreaker artist C.F. Villa will take the reins of
-                      Earth’s Mightiest Heroes in a new run of AVENGERS
-                    </div>
-
-                    <button className="mt-5">
-                      <div className="box-botton-ca">
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-two-ca"></div>
-                        </div>
-                        LEARN MORE
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-ca"></div>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* ------------------- */}
-
-          {/* CAROUSEL CARD */}
-          <div className="box-sli-two">
-            <div className="box-int-carousel">
-              <div>
-                <div className="box-int-inline-cd">
-                  <div className="inline-int">
-                    <div className="logo-mu">
-                      {/* <img className="mu-logo" src={Mulogo} alt="imageunlimited" /> */}
-                    </div>
-                    <div className="sets__eyebrow">Marvel Comics</div>
-
-                    <div className="text-new-one-two">THE AVENGERS RETURN</div>
-                    <div className="mt-2 text-white text-new-one-tree">
-                      This May, superstar writer Jed MacKay and Marvel
-                      Stormbreaker artist C.F. Villa will take the reins of
-                      Earth’s Mightiest Heroes in a new run of AVENGERS
-                    </div>
-
-                    <button className="mt-5">
-                      <div className="box-botton-ca">
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-two-ca"></div>
-                        </div>
-                        LEARN MORE
-                        <div className="box-int-bot-ca">
-                          <div className="box-int-cor-ca"></div>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* ------------------- */}
         </Slider>
         <div className="box-slider-card">
           <div className="box-int-card-slider">
             <div className="box-sli-cd">
               <div className="box-sli-fl">
-                <div className="box-int-sli">Sins Of Sinister</div>
-                <div className="box-int-sli">The Avengers Return</div>
+                <div className="box-int-sli">Deadpool Takes Over Midnight Suns</div>
+                <div className="box-int-sli">Answers To You Biggest MCU Questions</div>
                 <div className="box-int-sli">This Week´s New Comics</div>
                 <div className="box-int-sli">
                   Ant-Men And The Wasp Quantumania Tickets
                 </div>
-                <div className="box-int-sli">Moon Girl And Devil Dinosaur</div>
+                <div className="box-int-sli">Wakanda Forever Oscar Nominations</div>
               </div>
             </div>
             <div className="box-sli-cd-two">
