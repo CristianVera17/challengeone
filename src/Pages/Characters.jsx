@@ -20,7 +20,7 @@ export default function Characters() {
 
   return (
     <div className="layout-one">
-      <div className=" h-screen">
+      <div className="h-screen bg-black">
         {/* NAVBAR */}
         <header className="header-css">
           <nav id="navbar">

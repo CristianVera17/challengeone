@@ -46,7 +46,7 @@ export default function BlockTwoCopie(Children) {
                   </div>
                 </div>
               </button>
-              <button className="mt-5">
+              <button className="mt-5 ml-5">
                 <div className="box-botton-cdd">
                   <div className="box-int-bot-cdd">
                     <div className="box-int-cor-two-cdd"></div>
@@ -71,7 +71,7 @@ export default function BlockTwoCopie(Children) {
       <div className="box-five-tree-cdv">
         <div className="box-int-tree-cdv">
           {items.slice(0, visible).map((item) => (
-            <div className="box-scroll-card-cdv">
+            <div key={item} className="box-scroll-card-cdv">
               <div className="box-load-img-cdv">
                 <div className="box-img-load-cdv">
                   <div className="img-load-one-two-cdv">
