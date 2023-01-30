@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import Mlimg from "../../assets/mvblock.png";
 import Mulogo from "../../assets/mulogo.png";
 import "./block-two.css";
-// 
 
 export default function BlockTwo() {
   const [items, setItems] = useState([]);
@@ -18,10 +17,9 @@ export default function BlockTwo() {
       )
       .then((res) => {
         setItems(res.data.data.results);
-      })
-      // .catch((error) => console.log(error));
+      });
+    // .catch((error) => console.log(error));
   }, []);
-
 
   return (
     <div className="img-od">
@@ -39,7 +37,7 @@ export default function BlockTwo() {
               Read these plus 30,000+ digital comics for $9.99 a month!
             </div>
 
-            <button className="mt-5">
+            <button className="mt-5 font-bold">
               <div className="box-botton">
                 <div className="box-int-bot">
                   <div className="box-int-cor-two"></div>
@@ -82,7 +80,6 @@ export default function BlockTwo() {
                     <p className="text-hover-card">{item.name}</p>
                     <p className="text-hover-card-two">{item.title}</p>
                     <p className="text-hover-card-two">{item.id}</p>
-
                   </div>
                 </div>
               </div>
@@ -90,7 +87,6 @@ export default function BlockTwo() {
           ))}
         </div>
       </div>
-      {/* FINAL DEL BLOQUE SECUNDARIO */}
     </div>
   );
 }

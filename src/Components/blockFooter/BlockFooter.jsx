@@ -33,7 +33,7 @@ export default function BlockFooter() {
               </div>
               <div>
                 <button className="mt-5 text-white">
-                  <ButtonEdit />
+                  <ButtonEdit/>
                 </button>
               </div>
             </div>
@@ -55,16 +55,18 @@ export default function BlockFooter() {
 
           <div className="footer-box-two-two">
             <div className="footer-box-two-int">
-              <p className="text-white">ABOUT MARVEL</p>
-              <p className="text-white">HELP/FAQS</p>
-              <p className="text-white">CAREERS</p>
-              <p className="text-white">INTERNSHIPS</p>
+              <p className="text-white text-footer-cdv">ABOUT MARVEL</p>
+              <p className="text-white text-footer-cdv">HELP/FAQS</p>
+              <p className="text-white text-footer-cdv">CAREERS</p>
+              <p className="text-white text-footer-cdv">INTERNSHIPS</p>
             </div>
             <div className="footer-box-two-int-two">
-              <p className="text-white">ADVERTISING</p>
-              <p className="text-white">DISNEY+</p>
-              <p className="text-white">MARVELHQ.COM</p>
-              <p className="text-white">REDEEM DIGITAL COMICS</p>
+              <p className="text-white text-footer-cdv">ADVERTISING</p>
+              <p className="text-white text-footer-cdv">DISNEY+</p>
+              <p className="text-white text-footer-cdv">MARVELHQ.COM</p>
+              <p className="text-white text-footer-cdv">
+                REDEEM DIGITAL COMICS
+              </p>
             </div>
           </div>
           <div className="footer-line">
@@ -165,6 +167,7 @@ export default function BlockFooter() {
             <div className="text-footer ">Interest-Based Ads</div>
             <div className="text-footer ">Marvel Insider Terms</div>
             <div className="text-footer ">©2023 MARVEL</div>
+            <div className="mt-6"></div>
           </div>
         </div>
       </div>

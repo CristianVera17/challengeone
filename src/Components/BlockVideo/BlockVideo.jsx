@@ -8,10 +8,14 @@ export default function BlockVideo() {
         <div className="box-view-int">
           <div className="view-one">
             <iframe
-              title="marvelview"
-              className="iframe-css"
-              scrolling="no"
-              src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+              width="100%"
+              height="100%"
+              className="iframe-css-two"
+              src="https://www.youtube.com/embed/ELtbTkqXXQo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
           <div className="view-two">
@@ -19,46 +23,66 @@ export default function BlockVideo() {
               <div className="box-int-scroll">
                 <div className="card-scroll">
                   <iframe
-                    title="marvelview"
-                    className="iframe-view"
-                    scrolling="no"
-                    src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+                    width="560"
+                    height="115"
+                    className="iframe-css"
+                    src="https://www.youtube.com/embed/ELtbTkqXXQo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                   ></iframe>
                 </div>
 
                 <div className="card-scroll">
                   <iframe
-                    title="marvelview"
-                    className="iframe-view"
-                    scrolling="no"
-                    src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+                    width="560"
+                    height="315"
+                    className="iframe-css"
+                    src="https://www.youtube.com/embed/ELtbTkqXXQo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                   ></iframe>
                 </div>
 
                 <div className="card-scroll">
                   <iframe
-                    title="marvelview"
-                    className="iframe-view"
-                    scrolling="no"
-                    src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+                    width="560"
+                    height="315"
+                    className="iframe-css"
+                    src="https://www.youtube.com/embed/ELtbTkqXXQo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                   ></iframe>
                 </div>
 
                 <div className="card-scroll">
                   <iframe
-                    title="marvelview"
-                    className="iframe-view"
-                    scrolling="no"
-                    src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+                    width="560"
+                    height="315"
+                    className="iframe-css"
+                    src="https://www.youtube.com/embed/ELtbTkqXXQo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                   ></iframe>
                 </div>
 
                 <div className="card-scroll">
                   <iframe
-                    title="marvelview"
-                    className="iframe-view"
-                    scrolling="no"
-                    src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6315795499112&brand=marvel"
+                    width="560"
+                    height="315"
+                    className="iframe-css"
+                    src="https://www.youtube.com/embed/ELtbTkqXXQo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                   ></iframe>
                 </div>
               </div>
@@ -90,4 +114,4 @@ export default function BlockVideo() {
       </div>
     </>
   );
-;}
+}

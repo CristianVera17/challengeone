@@ -175,20 +175,29 @@ const NavbarOne = () => {
 
           {/*LINKS MENU LATERAL*/}
 
-          <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
-            Link 1
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+           NEWS
           </div>
-          <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
-            Link 2
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          COMICS
           </div>
-          <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
-            Link 3
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          CHARACTER
           </div>
-          <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
-            Link 4
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          MOVIES
           </div>
-          <div className="text-center text-white text-xl hover:bg-orange-400 cursor-pointer py-3 mb-2">
-            Link 5
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          TV SHOWS
+          </div>
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          GAMES
+          </div>
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          VIDEO
+          </div>
+          <div className="text-center text-white text-xl hover:bg-red-600 cursor-pointer py-3 mb-2">
+          MORE
           </div>
         </div>
       </div>

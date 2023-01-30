@@ -264,6 +264,7 @@
   margin: 10px;
 }
 
+
 .box-cookie {
   width: 100%;
   height: 100px;
@@ -402,9 +403,21 @@
 }
 
 .follow-marvel {
-  background-color: #151515;
+  background-color: #8b8b8b;
 
   margin-left: 15px;
+}
+
+.text-footer:hover {
+  color: white;
+}
+
+.text-footer-cdv:hover {
+  color: #393939;
+}
+
+.footer-box-two-two:hover {
+  color: #393939;
 }
 
 @media (max-width: 1024) {

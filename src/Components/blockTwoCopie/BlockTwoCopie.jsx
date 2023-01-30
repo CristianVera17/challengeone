@@ -35,7 +35,7 @@ export default function BlockTwoCopie(Children) {
               Check out the newest Marvel comics coming out this week!
             </div>
             <div className="flex box-bottons-card">
-              <button className="mt-5">
+              <button className="mt-5 font-bold">
                 <div className="box-botton-cdd">
                   <div className="box-int-bot-cdd">
                     <div className="box-int-cor-two-cdd"></div>
@@ -46,7 +46,7 @@ export default function BlockTwoCopie(Children) {
                   </div>
                 </div>
               </button>
-              <button className="mt-5 ml-5">
+              <button className="mt-5 button-two font-bold">
                 <div className="box-botton-cdd">
                   <div className="box-int-bot-cdd">
                     <div className="box-int-cor-two-cdd"></div>
@@ -89,6 +89,7 @@ export default function BlockTwoCopie(Children) {
                     {" "}
                     <p className="text-hover-card-cdv">{item.name}</p>
                     <p className="text-hover-card-two-cdv">{item.id}</p>
+                    <p className="text-hover-card-two-cdv">{item.title}</p>
                   </div>
                 </div>
               </div>

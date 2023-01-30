@@ -121,7 +121,7 @@ export const SearchCharacters = () => {
                 <div className="line-box"></div>
                 <div className="btn btn2">
                   <div>
-                    <p className="font-bold text-white p-4">{per.name}</p>
+                    <p className="font-bold text-white p-4">{per.title}</p>
                   </div>
                 </div>
                 <div className="boooox">
