@@ -20,7 +20,7 @@ export default function Characters() {
 
   return (
     <div className="layout-one">
-      <div className="h-screen bg-black">
+      <div>
         {/* NAVBAR */}
         <header className="header-css">
           <nav id="navbar">
@@ -71,6 +71,7 @@ export default function Characters() {
           <div className="flex justify-center">
           <button className="button-login" onClick={handleLogout}>Cerrar Sesion</button>
           </div>
+          <div className="mt-5"></div>
           {/* <button className="button-login" onClick={handleLogout}>logout cerrar sesion</button> */}
           <BlockFooter />
         </div>

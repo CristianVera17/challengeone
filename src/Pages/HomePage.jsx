@@ -23,13 +23,20 @@ window.onscroll = function() {
 };
   return (
     <div className="layout-one">
-       <header className="header-css">
+          <header className="header-css">
+          <nav id="navbar">
+            <div className="navegacion">
+              <NavbarOne/>
+            </div>
+          </nav>
+        </header>
+       {/* <header className="header-css">
         <nav id="navbar bg-red-500">
             <div className="navegacion bg-red-500">
                 <NavbarOne/>
             </div>
         </nav>
-    </header>
+    </header> */}
     <SimpleSlider/>
     <BlockTwo/>
     <LoadMoreCardT/>

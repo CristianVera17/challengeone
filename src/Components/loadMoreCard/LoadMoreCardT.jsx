@@ -5,15 +5,13 @@ import "./load-more-card-t.css";
 
 export const LoadMoreCardT = () => {
   const [items, setItems] = useState([]);
-    const [itemsTwo, setItemsTwo] = useState([]);
-
+  const [itemsTwo, setItemsTwo] = useState([]);
 
   const [visible, setVisible] = useState(8);
 
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 3);
   };
-// 
   useEffect(() => {
     axios
       .get(
@@ -25,7 +23,7 @@ export const LoadMoreCardT = () => {
       .catch((error) => console.log(error));
   }, []);
 
-   useEffect(() => {
+  useEffect(() => {
     axios
       .get(
         "https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=bd293897fc18a069507635e6566eda6f&hash=b5914d4e4f9eb0e3150961b9884d1336"
@@ -57,11 +55,8 @@ export const LoadMoreCardT = () => {
                   </div>
                   <div className="load-text-box">
                     {" "}
-                    <p className="font-bold">{item.title}</p>
+                    <p className="font-bold title-card-four">{item.title}</p>
                     <p>{item.id}</p>
-                                        {/* <p>{item.copyright}</p> */}
-
-                    
                   </div>
                 </div>
               </div>
@@ -73,7 +68,21 @@ export const LoadMoreCardT = () => {
         <div className="box-im-card">
           <div className="aside-box">
             <div>
-            <div class="rail-featured__border-top"><span class="icon--svg icon--border" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#border-line_svg__mask-2)"></path></svg></span></div>
+              <div class="rail-featured__border-top">
+                <span class="icon--svg icon--border" aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="186"
+                    height="55"
+                    viewBox="0 0 186 55"
+                  >
+                    <path
+                      d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z"
+                      mask="url(#border-line_svg__mask-2)"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
               <div>
                 <p className="the-hype-box">THE HYPE BOX</p>
               </div>
@@ -86,7 +95,7 @@ export const LoadMoreCardT = () => {
               </div>
             </div>
             <div className="content-load">
-              {itemsTwo.slice(0,5).map((item) => (
+              {itemsTwo.slice(0, 5).map((item) => (
                 <div className="box-load-card-two">
                   <div className="card-load-two">
                     <div className="int-box-card-load-cd">
@@ -99,7 +108,10 @@ export const LoadMoreCardT = () => {
                       </div>
 
                       <div className="box-title-hype">
-                        <p>{item.title}</p>
+                        <p className="box-title-hype-two font-bold">
+                          {" "}
+                          {item.title}
+                        </p>
                         <p>{item.id}</p>
                       </div>
                     </div>
@@ -110,13 +122,27 @@ export const LoadMoreCardT = () => {
 
             <div></div>
           </div>
-          <div class="rail-featured__border-bottom"><span class="icon--svg icon--border" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="186" height="55" viewBox="0 0 186 55"><path d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z" mask="url(#border-line_svg__mask-2)"></path></svg></span></div>
+          <div class="rail-featured__border-bottom">
+            <span class="icon--svg icon--border" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="186"
+                height="55"
+                viewBox="0 0 186 55"
+              >
+                <path
+                  d="M21.4 1L1 21.4V717h264.6l20.4-20.4V1H21.4z"
+                  mask="url(#border-line_svg__mask-2)"
+                ></path>
+              </svg>
+            </span>
+          </div>
           <div></div>
         </div>
       </div>
       <div className="box-button-spacing">
         <div className="box-button-spacing-two">
-          <button className="mt-5" onClick={showMoreItems}>
+          <button className="mt-5 button-slider" onClick={showMoreItems}>
             <div className="box-botton-cd">
               <div className="box-int-bot-cd">
                 <div className="box-int-cor-two-cd"></div>
